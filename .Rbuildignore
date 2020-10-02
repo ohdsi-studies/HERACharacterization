@@ -1,0 +1,4 @@
+^renv$
+^renv\.lock$
+^IntraVitrealCx\.Rproj$
+^\.Rproj\.user$

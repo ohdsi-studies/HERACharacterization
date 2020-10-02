@@ -1,0 +1,97 @@
+targetId,subgroupId,cohortId,cohortType,name
+1000,2000,1000020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Black
+1001,2000,1001020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Black
+1002,2000,1002020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Black
+1003,2000,1003020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with Black
+1004,2000,1004020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with Black
+1005,2000,1005020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Black
+1006,2000,1006020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Black
+1007,2000,1007020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Black
+1121,2000,1121020001,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Black
+1122,2000,1122020001,TwS,Incident Asthma/COPD Step 1 with Black
+1123,2000,1123020001,TwS,Incident Asthma/COPD Step 2 with Black
+1124,2000,1124020001,TwS,Incident Asthma/COPD Step 3 with Black
+1000,2001,1000020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Black Men
+1001,2001,1001020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Black Men
+1002,2001,1002020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Black Men
+1003,2001,1003020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with Black Men
+1004,2001,1004020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with Black Men
+1005,2001,1005020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Black Men
+1006,2001,1006020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Black Men
+1007,2001,1007020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Black Men
+1121,2001,1121020011,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Black Men
+1122,2001,1122020011,TwS,Incident Asthma/COPD Step 1 with Black Men
+1123,2001,1123020011,TwS,Incident Asthma/COPD Step 2 with Black Men
+1124,2001,1124020011,TwS,Incident Asthma/COPD Step 3 with Black Men
+1000,2002,1000020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Black Women
+1001,2002,1001020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Black Women
+1002,2002,1002020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Black Women
+1003,2002,1003020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with Black Women
+1004,2002,1004020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with Black Women
+1005,2002,1005020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Black Women
+1006,2002,1006020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Black Women
+1007,2002,1007020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Black Women
+1121,2002,1121020021,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Black Women
+1122,2002,1122020021,TwS,Incident Asthma/COPD Step 1 with Black Women
+1123,2002,1123020021,TwS,Incident Asthma/COPD Step 2 with Black Women
+1124,2002,1124020021,TwS,Incident Asthma/COPD Step 3 with Black Women
+1000,2003,1000020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Female
+1001,2003,1001020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Female
+1002,2003,1002020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Female
+1003,2003,1003020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with Female
+1004,2003,1004020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with Female
+1005,2003,1005020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Female
+1006,2003,1006020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Female
+1007,2003,1007020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Female
+1121,2003,1121020031,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Female
+1122,2003,1122020031,TwS,Incident Asthma/COPD Step 1 with Female
+1123,2003,1123020031,TwS,Incident Asthma/COPD Step 2 with Female
+1124,2003,1124020031,TwS,Incident Asthma/COPD Step 3 with Female
+1000,2004,1000020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Male
+1001,2004,1001020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Male
+1002,2004,1002020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Male
+1003,2004,1003020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with Male
+1004,2004,1004020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with Male
+1005,2004,1005020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Male
+1006,2004,1006020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Male
+1007,2004,1007020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Male
+1121,2004,1121020041,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Male
+1122,2004,1122020041,TwS,Incident Asthma/COPD Step 1 with Male
+1123,2004,1123020041,TwS,Incident Asthma/COPD Step 2 with Male
+1124,2004,1124020041,TwS,Incident Asthma/COPD Step 3 with Male
+1000,2005,1000020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with White
+1001,2005,1001020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with White
+1002,2005,1002020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with White
+1003,2005,1003020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with White
+1004,2005,1004020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with White
+1005,2005,1005020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with White
+1006,2005,1006020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with White
+1007,2005,1007020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with White
+1121,2005,1121020051,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with White
+1122,2005,1122020051,TwS,Incident Asthma/COPD Step 1 with White
+1123,2005,1123020051,TwS,Incident Asthma/COPD Step 2 with White
+1124,2005,1124020051,TwS,Incident Asthma/COPD Step 3 with White
+1000,2006,1000020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with White Men
+1001,2006,1001020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with White Men
+1002,2006,1002020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with White Men
+1003,2006,1003020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with White Men
+1004,2006,1004020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with White Men
+1005,2006,1005020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with White Men
+1006,2006,1006020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with White Men
+1007,2006,1007020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with White Men
+1121,2006,1121020061,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with White Men
+1122,2006,1122020061,TwS,Incident Asthma/COPD Step 1 with White Men
+1123,2006,1123020061,TwS,Incident Asthma/COPD Step 2 with White Men
+1124,2006,1124020061,TwS,Incident Asthma/COPD Step 3 with White Men
+1000,2007,1000020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with White Women
+1001,2007,1001020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with White Women
+1002,2007,1002020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with White Women
+1003,2007,1003020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 30-39) with White Women
+1004,2007,1004020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 40-49) with White Women
+1005,2007,1005020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with White Women
+1006,2007,1006020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with White Women
+1007,2007,1007020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with White Women
+1121,2007,1121020071,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with White Women
+1122,2007,1122020071,TwS,Incident Asthma/COPD Step 1 with White Women
+1123,2007,1123020071,TwS,Incident Asthma/COPD Step 2 with White Women
+1124,2007,1124020071,TwS,Incident Asthma/COPD Step 3 with White Women

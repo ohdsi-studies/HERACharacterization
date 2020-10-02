@@ -1,0 +1,21 @@
+name,atlasName,atlasId,cohortId
+121,[COVID ID121 V1] Prevalent Asthma or Chronic obstructive pulmonary disease (COPD),801,121
+122,[COVID ID122 V1] Asthma/COPD Step 1,851,122
+123,[COVID ID123 V1] Asthma/COPD Step 2,850,123
+124,[COVID ID124 V1] Asthma/COPD Step 3,852,124
+1000,[HERA] Persons observed in 2017 with 3yr prior observation (Age 0-9),5960,1000
+1001,[HERA] Persons observed in 2017 with 3yr prior observation (Age 10-19),5973,1001
+1002,[HERA] Persons observed in 2017 with 3yr prior observation (Age 20-29),5974,1002
+1003,[HERA] Persons observed in 2017 with 3yr prior observation (Age 30-39),5975,1003
+1004,[HERA] Persons observed in 2017 with 3yr prior observation (Age 40-49),5976,1004
+1005,[HERA] Persons observed in 2017 with 3yr prior observation (Age 50-59),5977,1005
+1006,[HERA] Persons observed in 2017 with 3yr prior observation (Age 60-69),5978,1006
+1007,[HERA] Persons observed in 2017 with 3yr prior observation (Age 70-79),5979,1007
+2000,[HERA] Black,5969,2000
+2001,[HERA] Black Men,5965,2001
+2002,[HERA] Black Women,5970,2002
+2003,[HERA] Female,5962,2003
+2004,[HERA] Male,5961,2004
+2005,[HERA] White,5963,2005
+2006,[HERA] White Men,5972,2006
+2007,[HERA] White Women,5971,2007

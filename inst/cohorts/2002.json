@@ -1,0 +1,228 @@
+{
+	"cdmVersionRange" : ">=5.0.0",
+	"PrimaryCriteria" : {
+		"CriteriaList" : [
+			{
+				"ObservationPeriod" : {}
+			}
+		],
+		"ObservationWindow" : {
+			"PriorDays" : 0,
+			"PostDays" : 0
+		},
+		"PrimaryCriteriaLimit" : {
+			"Type" : "First"
+		}
+	},
+	"ConceptSets" : [],
+	"QualifiedLimit" : {
+		"Type" : "First"
+	},
+	"ExpressionLimit" : {
+		"Type" : "First"
+	},
+	"InclusionRules" : [
+		{
+			"name" : "Black",
+			"expression" : {
+				"Type" : "ALL",
+				"CriteriaList" : [],
+				"DemographicCriteriaList" : [
+					{
+						"Race" : [
+							{
+								"CONCEPT_ID" : 8516,
+								"CONCEPT_NAME" : "Black or African American",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003599,
+								"CONCEPT_NAME" : "African American",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.02",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003598,
+								"CONCEPT_NAME" : "Black",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.01",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003609,
+								"CONCEPT_NAME" : "West Indian",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.12",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003600,
+								"CONCEPT_NAME" : "African",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.03",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003605,
+								"CONCEPT_NAME" : "Haitian",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.08",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003603,
+								"CONCEPT_NAME" : "Dominican",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.06",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003604,
+								"CONCEPT_NAME" : "Dominica Islander",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.07",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003602,
+								"CONCEPT_NAME" : "Barbadian",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.05",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003601,
+								"CONCEPT_NAME" : "Bahamian",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.04",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003607,
+								"CONCEPT_NAME" : "Tobagoan",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.10",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003606,
+								"CONCEPT_NAME" : "Jamaican",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.09",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							},
+							{
+								"CONCEPT_ID" : 38003608,
+								"CONCEPT_NAME" : "Trinidadian",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "3.11",
+								"DOMAIN_ID" : "Race",
+								"VOCABULARY_ID" : "Race",
+								"CONCEPT_CLASS_ID" : null
+							}
+						]
+					}
+				],
+				"Groups" : []
+			}
+		},
+		{
+			"name" : "Female",
+			"expression" : {
+				"Type" : "ALL",
+				"CriteriaList" : [],
+				"DemographicCriteriaList" : [
+					{
+						"Gender" : [
+							{
+								"CONCEPT_ID" : 8532,
+								"CONCEPT_NAME" : "FEMALE",
+								"STANDARD_CONCEPT" : null,
+								"STANDARD_CONCEPT_CAPTION" : "Unknown",
+								"INVALID_REASON" : null,
+								"INVALID_REASON_CAPTION" : "Unknown",
+								"CONCEPT_CODE" : "F",
+								"DOMAIN_ID" : "Gender",
+								"VOCABULARY_ID" : "Gender",
+								"CONCEPT_CLASS_ID" : null
+							}
+						]
+					}
+				],
+				"Groups" : []
+			}
+		}
+	],
+	"CensoringCriteria" : [],
+	"CollapseSettings" : {
+		"CollapseType" : "ERA",
+		"EraPad" : 0
+	},
+	"CensorWindow" : {}
+}
