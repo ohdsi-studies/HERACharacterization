@@ -27,7 +27,8 @@ Imports:
   pool,
   DT,
   htmltools,
-  markdown
+  markdown,
+  stringr
 Suggests:
   knitr,
   rmarkdown
