@@ -14,4 +14,4 @@
 - Publications: **-**
 - Results explorer: **-**
 
-HERA - health equity research assessment  - a large scale cahracterization of gender and racial disparites
+Health Equity Research Assessment (HERA): a large scale cahracterization of gender and racial disparites
