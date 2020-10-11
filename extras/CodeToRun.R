@@ -33,13 +33,13 @@ if (!is.null(connectionString)) {
 }
 
 # Details specific to the database:
-databaseId <- "OptumEhr1351"
-databaseName <- "OptumEhr1351"
-databaseDescription <- "OptumEhr1351"
+databaseId <- "CDM_OPTUM_EXTENDED_SES_V1292"
+databaseName <- "CDM_OPTUM_EXTENDED_SES_V1292"
+databaseDescription <- "CDM_OPTUM_EXTENDED_SES_V1292"
 
 # Details for connecting to the CDM and storing the results
-cdmDatabaseSchema <- "cdm_1351"
-cohortDatabaseSchema <- "ohdsi_results_1351"
+cdmDatabaseSchema <- "CDM_OPTUM_EXTENDED_SES_V1292.dbo"
+cohortDatabaseSchema <- "Scratch.dbo"
 cohortTable <- paste0("AS_HERACharacterization_", databaseId)
 featureSummaryTable <- paste0(cohortTable, "_smry")
 minCellCount <- 5
