@@ -21,7 +21,7 @@ FROM (
     cst.subject_id,
     cst.cohort_start_date,
     cst.cohort_end_date,
-    ROW_NUMBER() OVER (PARTITION BY cohort_definition_id, subject_id, cohort_start_date) rn
+    ROW_NUMBER() OVER (PARTITION BY cohort_definition_id, subject_id, cohort_start_date ORDER BY cohort_definition_id, subject_id, cohort_start_date) rn
   FROM @cohort_database_schema.@cohort_table cst
   JOIN @cdm_database_schema.observation_period OP on cst.subject_id = OP.person_id 
     and cst.cohort_start_date >=  OP.observation_period_start_date 

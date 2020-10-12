@@ -32,7 +32,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,0,All,Target
 1926710030,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",0,All,Target
 1926750030,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",0,All,Target
-1937820050,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,0,All,Target
 1941330010,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,0,All,Target
 1949920010,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,0,All,Target
 1973200040,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",0,All,Target
@@ -165,7 +164,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020001,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2000,with Black,TwS
 1926710030020001,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2000,with Black,TwS
 1926750030020001,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2000,with Black,TwS
-1937820050020001,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2000,with Black,TwS
 1941330010020001,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2000,with Black,TwS
 1949920010020001,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2000,with Black,TwS
 1973200040020001,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2000,with Black,TwS
@@ -298,7 +296,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020011,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2001,with Black Men,TwS
 1926710030020011,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2001,with Black Men,TwS
 1926750030020011,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2001,with Black Men,TwS
-1937820050020011,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2001,with Black Men,TwS
 1941330010020011,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2001,with Black Men,TwS
 1949920010020011,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2001,with Black Men,TwS
 1973200040020011,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2001,with Black Men,TwS
@@ -431,7 +428,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020021,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2002,with Black Women,TwS
 1926710030020021,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2002,with Black Women,TwS
 1926750030020021,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2002,with Black Women,TwS
-1937820050020021,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2002,with Black Women,TwS
 1941330010020021,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2002,with Black Women,TwS
 1949920010020021,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2002,with Black Women,TwS
 1973200040020021,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2002,with Black Women,TwS
@@ -564,7 +560,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020031,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2003,with Female,TwS
 1926710030020031,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2003,with Female,TwS
 1926750030020031,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2003,with Female,TwS
-1937820050020031,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2003,with Female,TwS
 1941330010020031,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2003,with Female,TwS
 1949920010020031,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2003,with Female,TwS
 1973200040020031,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2003,with Female,TwS
@@ -697,7 +692,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020041,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2004,with Male,TwS
 1926710030020041,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2004,with Male,TwS
 1926750030020041,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2004,with Male,TwS
-1937820050020041,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2004,with Male,TwS
 1941330010020041,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2004,with Male,TwS
 1949920010020041,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2004,with Male,TwS
 1973200040020041,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2004,with Male,TwS
@@ -830,7 +824,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020051,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2005,with White,TwS
 1926710030020051,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2005,with White,TwS
 1926750030020051,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2005,with White,TwS
-1937820050020051,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2005,with White,TwS
 1941330010020051,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2005,with White,TwS
 1949920010020051,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2005,with White,TwS
 1973200040020051,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2005,with White,TwS
@@ -963,7 +956,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020061,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2006,with White Men,TwS
 1926710030020061,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2006,with White Men,TwS
 1926750030020061,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2006,with White Men,TwS
-1937820050020061,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2006,with White Men,TwS
 1941330010020061,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2006,with White Men,TwS
 1949920010020061,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2006,with White Men,TwS
 1973200040020061,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2006,with White Men,TwS
@@ -1096,7 +1088,6 @@ cohortId,targetId,targetName,subgroupId,subgroupName,cohortType
 1414560010020071,1414560010,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2007,with White Women,TwS
 1926710030020071,1926710030,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit",2007,with White Women,TwS
 1926750030020071,1926750030,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis",2007,with White Women,TwS
-1937820050020071,1937820050,End stage renal disease prevalent cohort: All condition occurrences or observations of 'End stage renal disease' conceptset with either a 2nd diagnosis or observatoin of 'End stage renal disease' or a record of 'Dialysis' in 90d after,2007,with White Women,TwS
 1941330010020071,1941330010,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2007,with White Women,TwS
 1949920010020071,1949920010,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation,2007,with White Women,TwS
 1973200040020071,1973200040,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit",2007,with White Women,TwS
