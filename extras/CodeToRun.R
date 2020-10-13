@@ -33,13 +33,13 @@ if (!is.null(connectionString)) {
 }
 
 # Details specific to the database:
-databaseId <- "OptumEhr1351"
-databaseName <- "OptumEhr1351"
-databaseDescription <- "OptumEhr1351"
+databaseId <- "CDM_OPTUM_PANTHER_V1157"
+databaseName <- "CDM_OPTUM_PANTHER_V1157"
+databaseDescription <- "CDM_OPTUM_PANTHER_V1157"
 
 # Details for connecting to the CDM and storing the results
-cdmDatabaseSchema <- "cdm_1351"
-cohortDatabaseSchema <- "ohdsi_results_1351"
+cdmDatabaseSchema <- "CDM_OPTUM_PANTHER_V1157.dbo"
+cohortDatabaseSchema <- "Scratch.dbo"
 cohortTable <- paste0("AS_HERACharacterization_", databaseId)
 featureSummaryTable <- paste0(cohortTable, "_smry")
 minCellCount <- 5
@@ -56,18 +56,18 @@ setwd(outputFolder)
 cohortIdsToExcludeFromExecution <- c()
 cohortIdsToExcludeFromResultsExport <- NULL
 
-# Run cohort diagnostics -----------------------------------
-runCohortDiagnostics(connectionDetails = connectionDetails,
-                     cdmDatabaseSchema = cdmDatabaseSchema,
-                     cohortDatabaseSchema = cohortDatabaseSchema,
-                     cohortTable = cohortTable,
-                     oracleTempSchema = oracleTempSchema,
-                     cohortIdsToExcludeFromExecution = cohortIdsToExcludeFromExecution,
-                     exportFolder = outputFolder,
-                     databaseId = databaseId,
-                     databaseName = databaseName,
-                     databaseDescription = databaseDescription,
-                     minCellCount = minCellCount)
+# # Run cohort diagnostics -----------------------------------
+# runCohortDiagnostics(connectionDetails = connectionDetails,
+#                      cdmDatabaseSchema = cdmDatabaseSchema,
+#                      cohortDatabaseSchema = cohortDatabaseSchema,
+#                      cohortTable = cohortTable,
+#                      oracleTempSchema = oracleTempSchema,
+#                      cohortIdsToExcludeFromExecution = cohortIdsToExcludeFromExecution,
+#                      exportFolder = outputFolder,
+#                      databaseId = databaseId,
+#                      databaseName = databaseName,
+#                      databaseDescription = databaseDescription,
+#                      minCellCount = minCellCount)
 
 # Use the next command to review cohort diagnostics
 #launchDiagnosticsShinyApp(file.path(outputFolder, 'diagnostics'))

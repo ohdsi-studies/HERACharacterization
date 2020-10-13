@@ -151,8 +151,8 @@ insertCohortDefinitionInPackage <- function(cohortId,
 }
 
 cohortGroups <- readr::read_csv("inst/settings/CohortGroups.csv", col_types = readr::cols())
-# Do not import the features since we've brought those over from Charybdis
-cohortGroupSubset <- cohortGroups[cohortGroups$cohortGroup != 'feature',]
+# Import only the features for now
+cohortGroupSubset <- cohortGroups[cohortGroups$cohortGroup == 'feature',]
 for (i in 1:nrow(cohortGroupSubset)) {
   ParallelLogger::logInfo("* Importing cohorts in group: ", cohortGroupSubset$cohortGroup[i], " *")
   insertCohortDefinitionSetInPackage(fileName = file.path("inst/", cohortGroupSubset$fileName[i]),

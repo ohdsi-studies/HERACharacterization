@@ -7,10 +7,130 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2000,1005020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Black
 1006,2000,1006020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Black
 1007,2000,1007020001,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Black
-1121,2000,1121020001,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Black
-1122,2000,1122020001,TwS,Incident Asthma/COPD Step 1 with Black
-1123,2000,1123020001,TwS,Incident Asthma/COPD Step 2 with Black
-1124,2000,1124020001,TwS,Incident Asthma/COPD Step 3 with Black
+241340030,2000,241340030020001,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with Black"
+246090030,2000,246090030020001,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with Black
+313170030,2000,313170030020001,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with Black
+319670030,2000,319670030020001,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with Black"
+758600030,2000,758600030020001,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with Black
+801800030,2000,801800030020001,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with Black
+805020010,2000,805020010020001,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+808090030,2000,808090030020001,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with Black
+818930030,2000,818930030020001,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with Black
+819310040,2000,819310040020001,TwS,Psoriatic arthritis with Black
+1327020030,2000,1327020030020001,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with Black
+1327970030,2000,1327970030020001,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with Black"
+1334440010,2000,1334440010020001,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1338340050,2000,1338340050020001,TwS,Atopic dermatitis and Eczema at first diagnosis with Black
+1344420050,2000,1344420050020001,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with Black
+1379770010,2000,1379770010020001,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1383790030,2000,1383790030020001,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with Black"
+1389940010,2000,1389940010020001,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1398030050,2000,1398030050020001,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with Black"
+1401680030,2000,1401680030020001,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with Black
+1403520010,2000,1403520010020001,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black"
+1406730010,2000,1406730010020001,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1414560010,2000,1414560010020001,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1926710030,2000,1926710030020001,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with Black"
+1926750030,2000,1926750030020001,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with Black"
+1941330010,2000,1941330010020001,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1949920010,2000,1949920010020001,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1973200040,2000,1973200040020001,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with Black"
+1974940040,2000,1974940040020001,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with Black"
+1975080010,2000,1975080010020001,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1985710030,2000,1985710030020001,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with Black"
+1989850010,2000,1989850010020001,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+1990740030,2000,1990740030020001,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with Black
+2002190010,2000,2002190010020001,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+2012140010,2000,2012140010020001,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+2012540030,2000,2012540030020001,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with Black
+2013400010,2000,2013400010020001,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+2016060030,2000,2016060030020001,TwS,Crohn's disease for first time with no history (Thirumurthi) with Black
+2016200010,2000,2016200010020001,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+2018260050,2000,2018260050020001,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with Black
+2544430030,2000,2544430030020001,TwS,Sjogren's syndrome at first diagnosis with Black
+2555730030,2000,2555730030020001,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with Black"
+2558480040,2000,2558480040020001,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with Black"
+2570070010,2000,2570070010020001,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+2576280030,2000,2576280030020001,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with Black
+3123270030,2000,3123270030020001,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with Black"
+3124370030,2000,3124370030020001,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with Black"
+3129390010,2000,3129390010020001,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3132170060,2000,3132170060020001,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with Black"
+3132230010,2000,3132230010020001,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3134590010,2000,3134590010020001,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3138000030,2000,3138000030020001,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with Black"
+3143810030,2000,3143810030020001,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with Black"
+3143830030,2000,3143830030020001,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with Black"
+3161390010,2000,3161390010020001,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3168660030,2000,3168660030020001,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with Black
+3170090030,2000,3170090030020001,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with Black"
+3187360030,2000,3187360030020001,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with Black
+3188000030,2000,3188000030020001,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with Black
+3190490030,2000,3190490030020001,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with Black
+3210520010,2000,3210520010020001,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3723280010,2000,3723280010020001,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3735030030,2000,3735030030020001,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with Black"
+3740210030,2000,3740210030020001,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with Black"
+3749190030,2000,3749190030020001,TwS,Multiple Sclerosis (MS) at first diagnosis with Black
+3749540010,2000,3749540010020001,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3767130030,2000,3767130030020001,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with Black"
+3784190030,2000,3784190030020001,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with Black"
+3803780080,2000,3803780080020001,TwS,Epilepsy Moura 1 with Black
+3812700010,2000,3812700010020001,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+3813160030,2000,3813160030020001,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with Black"
+4327910030,2000,4327910030020001,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with Black"
+4328670010,2000,4328670010020001,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4328700030,2000,4328700030020001,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with Black"
+4328700040,2000,4328700040020001,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with Black"
+4337360030,2000,4337360030020001,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with Black
+4341190030,2000,4341190030020001,TwS,Hidradenitis at first diagnosis with Black
+4345570030,2000,4345570030020001,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with Black
+4345920030,2000,4345920030020001,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with Black"
+4357830030,2000,4357830030020001,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with Black"
+4360730030,2000,4360730030020001,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with Black"
+4361000030,2000,4361000030020001,TwS,Narcolepsy (generalized algorithm from literature) with Black
+4366420040,2000,4366420040020001,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4366650010,2000,4366650010020001,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4366760010,2000,4366760010020001,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4369620030,2000,4369620030020001,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with Black
+4370820010,2000,4370820010020001,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4372330010,2000,4372330010020001,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4375410010,2000,4375410010020001,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4384090010,2000,4384090010020001,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4397270040,2000,4397270040020001,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with Black
+4397760010,2000,4397760010020001,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4403830030,2000,4403830030020001,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with Black"
+4404170030,2000,4404170030020001,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with Black"
+4406740010,2000,4406740010020001,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4407400010,2000,4407400010020001,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4412020030,2000,4412020030020001,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with Black
+4433870010,2000,4433870010020001,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+4434540030,2000,4434540030020001,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with Black"
+4440440010,2000,4440440010020001,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+40388380010,2000,4038838001002e4,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+40748150030,2000,4074815003002e4,TwS,Inflammatory bowel disease with Black
+40915590010,2000,4091559001002e4,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+41032950030,2000,4103295003002e4,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with Black"
+41330040050,2000,4133004005002e4,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with Black"
+41647700030,2000,4164770003002e4,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with Black"
+41807900010,2000,4180790001002e4,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+41813430010,2000,4181343001002e4,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+41822100010,2000,4182210001002e4,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+42010960030,2000,4201096003002e4,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with Black
+42459750030,2000,4245975003002e4,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with Black"
+42461270010,2000,4246127001002e4,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+42562280010,2000,4256228001002e4,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+42663670030,2000,4266367003002e4,TwS,Influenza custom cohort: Flu-like symptom episodes with Black
+42812320010,2000,4281232001002e4,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+42909760030,2000,4290976003002e4,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with Black
+43114990010,2000,4311499001002e4,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+43220240010,2000,4322024001002e4,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+404795890030,2000,4.0479589003001997e+017,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with Black
+425357140030,2000,4.2535714003001997e+017,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with Black
+435307140030,2000,4.3530714003001997e+017,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with Black"
+447842170010,2000,4.4784217001001997e+017,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black
+457636530030,2000,4.5763653003001997e+017,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with Black
+462710220060,2000,4.6271022006001997e+017,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with Black
 1000,2001,1000020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Black Men
 1001,2001,1001020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Black Men
 1002,2001,1002020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Black Men
@@ -19,10 +139,130 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2001,1005020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Black Men
 1006,2001,1006020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Black Men
 1007,2001,1007020011,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Black Men
-1121,2001,1121020011,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Black Men
-1122,2001,1122020011,TwS,Incident Asthma/COPD Step 1 with Black Men
-1123,2001,1123020011,TwS,Incident Asthma/COPD Step 2 with Black Men
-1124,2001,1124020011,TwS,Incident Asthma/COPD Step 3 with Black Men
+241340030,2001,241340030020011,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with Black Men"
+246090030,2001,246090030020011,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with Black Men
+313170030,2001,313170030020011,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with Black Men
+319670030,2001,319670030020011,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with Black Men"
+758600030,2001,758600030020011,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with Black Men
+801800030,2001,801800030020011,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with Black Men
+805020010,2001,805020010020011,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+808090030,2001,808090030020011,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with Black Men
+818930030,2001,818930030020011,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with Black Men
+819310040,2001,819310040020011,TwS,Psoriatic arthritis with Black Men
+1327020030,2001,1327020030020011,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with Black Men
+1327970030,2001,1327970030020011,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with Black Men"
+1334440010,2001,1334440010020011,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1338340050,2001,1338340050020011,TwS,Atopic dermatitis and Eczema at first diagnosis with Black Men
+1344420050,2001,1344420050020011,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with Black Men
+1379770010,2001,1379770010020011,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1383790030,2001,1383790030020011,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with Black Men"
+1389940010,2001,1389940010020011,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1398030050,2001,1398030050020011,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with Black Men"
+1401680030,2001,1401680030020011,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with Black Men
+1403520010,2001,1403520010020011,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men"
+1406730010,2001,1406730010020011,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1414560010,2001,1414560010020011,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1926710030,2001,1926710030020011,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with Black Men"
+1926750030,2001,1926750030020011,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with Black Men"
+1941330010,2001,1941330010020011,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1949920010,2001,1949920010020011,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1973200040,2001,1973200040020011,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with Black Men"
+1974940040,2001,1974940040020011,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with Black Men"
+1975080010,2001,1975080010020011,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1985710030,2001,1985710030020011,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with Black Men"
+1989850010,2001,1989850010020011,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+1990740030,2001,1990740030020011,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with Black Men
+2002190010,2001,2002190010020011,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+2012140010,2001,2012140010020011,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+2012540030,2001,2012540030020011,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with Black Men
+2013400010,2001,2013400010020011,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+2016060030,2001,2016060030020011,TwS,Crohn's disease for first time with no history (Thirumurthi) with Black Men
+2016200010,2001,2016200010020011,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+2018260050,2001,2018260050020011,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with Black Men
+2544430030,2001,2544430030020011,TwS,Sjogren's syndrome at first diagnosis with Black Men
+2555730030,2001,2555730030020011,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with Black Men"
+2558480040,2001,2558480040020011,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with Black Men"
+2570070010,2001,2570070010020011,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+2576280030,2001,2576280030020011,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with Black Men
+3123270030,2001,3123270030020011,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with Black Men"
+3124370030,2001,3124370030020011,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with Black Men"
+3129390010,2001,3129390010020011,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3132170060,2001,3132170060020011,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with Black Men"
+3132230010,2001,3132230010020011,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3134590010,2001,3134590010020011,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3138000030,2001,3138000030020011,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with Black Men"
+3143810030,2001,3143810030020011,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with Black Men"
+3143830030,2001,3143830030020011,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with Black Men"
+3161390010,2001,3161390010020011,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3168660030,2001,3168660030020011,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with Black Men
+3170090030,2001,3170090030020011,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with Black Men"
+3187360030,2001,3187360030020011,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with Black Men
+3188000030,2001,3188000030020011,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with Black Men
+3190490030,2001,3190490030020011,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with Black Men
+3210520010,2001,3210520010020011,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3723280010,2001,3723280010020011,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3735030030,2001,3735030030020011,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with Black Men"
+3740210030,2001,3740210030020011,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with Black Men"
+3749190030,2001,3749190030020011,TwS,Multiple Sclerosis (MS) at first diagnosis with Black Men
+3749540010,2001,3749540010020011,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3767130030,2001,3767130030020011,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with Black Men"
+3784190030,2001,3784190030020011,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with Black Men"
+3803780080,2001,3803780080020011,TwS,Epilepsy Moura 1 with Black Men
+3812700010,2001,3812700010020011,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+3813160030,2001,3813160030020011,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with Black Men"
+4327910030,2001,4327910030020011,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with Black Men"
+4328670010,2001,4328670010020011,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4328700030,2001,4328700030020011,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with Black Men"
+4328700040,2001,4328700040020011,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with Black Men"
+4337360030,2001,4337360030020011,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with Black Men
+4341190030,2001,4341190030020011,TwS,Hidradenitis at first diagnosis with Black Men
+4345570030,2001,4345570030020011,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with Black Men
+4345920030,2001,4345920030020011,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with Black Men"
+4357830030,2001,4357830030020011,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with Black Men"
+4360730030,2001,4360730030020011,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with Black Men"
+4361000030,2001,4361000030020011,TwS,Narcolepsy (generalized algorithm from literature) with Black Men
+4366420040,2001,4366420040020011,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4366650010,2001,4366650010020011,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4366760010,2001,4366760010020011,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4369620030,2001,4369620030020011,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with Black Men
+4370820010,2001,4370820010020011,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4372330010,2001,4372330010020011,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4375410010,2001,4375410010020011,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4384090010,2001,4384090010020011,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4397270040,2001,4397270040020011,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with Black Men
+4397760010,2001,4397760010020011,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4403830030,2001,4403830030020011,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with Black Men"
+4404170030,2001,4404170030020011,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with Black Men"
+4406740010,2001,4406740010020011,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4407400010,2001,4407400010020011,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4412020030,2001,4412020030020011,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with Black Men
+4433870010,2001,4433870010020011,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+4434540030,2001,4434540030020011,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with Black Men"
+4440440010,2001,4440440010020011,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+40388380010,2001,40388380010020010,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+40748150030,2001,40748150030020010,TwS,Inflammatory bowel disease with Black Men
+40915590010,2001,40915590010020010,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+41032950030,2001,41032950030020010,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with Black Men"
+41330040050,2001,41330040050020010,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with Black Men"
+41647700030,2001,41647700030020010,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with Black Men"
+41807900010,2001,41807900010020010,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+41813430010,2001,41813430010020010,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+41822100010,2001,41822100010020010,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+42010960030,2001,42010960030020010,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with Black Men
+42459750030,2001,42459750030020010,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with Black Men"
+42461270010,2001,42461270010020010,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+42562280010,2001,42562280010020010,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+42663670030,2001,42663670030020010,TwS,Influenza custom cohort: Flu-like symptom episodes with Black Men
+42812320010,2001,42812320010020010,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+42909760030,2001,42909760030020010,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with Black Men
+43114990010,2001,43114990010020010,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+43220240010,2001,43220240010020010,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+404795890030,2001,4.0479589003002003e+017,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with Black Men
+425357140030,2001,4.2535714003002003e+017,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with Black Men
+435307140030,2001,4.3530714003002003e+017,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with Black Men"
+447842170010,2001,4.4784217001002003e+017,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Men
+457636530030,2001,4.5763653003002003e+017,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with Black Men
+462710220060,2001,4.6271022006002003e+017,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with Black Men
 1000,2002,1000020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Black Women
 1001,2002,1001020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Black Women
 1002,2002,1002020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Black Women
@@ -31,10 +271,130 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2002,1005020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Black Women
 1006,2002,1006020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Black Women
 1007,2002,1007020021,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Black Women
-1121,2002,1121020021,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Black Women
-1122,2002,1122020021,TwS,Incident Asthma/COPD Step 1 with Black Women
-1123,2002,1123020021,TwS,Incident Asthma/COPD Step 2 with Black Women
-1124,2002,1124020021,TwS,Incident Asthma/COPD Step 3 with Black Women
+241340030,2002,241340030020021,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with Black Women"
+246090030,2002,246090030020021,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with Black Women
+313170030,2002,313170030020021,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with Black Women
+319670030,2002,319670030020021,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with Black Women"
+758600030,2002,758600030020021,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with Black Women
+801800030,2002,801800030020021,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with Black Women
+805020010,2002,805020010020021,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+808090030,2002,808090030020021,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with Black Women
+818930030,2002,818930030020021,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with Black Women
+819310040,2002,819310040020021,TwS,Psoriatic arthritis with Black Women
+1327020030,2002,1327020030020021,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with Black Women
+1327970030,2002,1327970030020021,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with Black Women"
+1334440010,2002,1334440010020021,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1338340050,2002,1338340050020021,TwS,Atopic dermatitis and Eczema at first diagnosis with Black Women
+1344420050,2002,1344420050020021,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with Black Women
+1379770010,2002,1379770010020021,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1383790030,2002,1383790030020021,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with Black Women"
+1389940010,2002,1389940010020021,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1398030050,2002,1398030050020021,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with Black Women"
+1401680030,2002,1401680030020021,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with Black Women
+1403520010,2002,1403520010020021,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women"
+1406730010,2002,1406730010020021,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1414560010,2002,1414560010020021,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1926710030,2002,1926710030020021,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with Black Women"
+1926750030,2002,1926750030020021,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with Black Women"
+1941330010,2002,1941330010020021,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1949920010,2002,1949920010020021,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1973200040,2002,1973200040020021,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with Black Women"
+1974940040,2002,1974940040020021,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with Black Women"
+1975080010,2002,1975080010020021,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1985710030,2002,1985710030020021,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with Black Women"
+1989850010,2002,1989850010020021,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+1990740030,2002,1990740030020021,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with Black Women
+2002190010,2002,2002190010020021,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+2012140010,2002,2012140010020021,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+2012540030,2002,2012540030020021,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with Black Women
+2013400010,2002,2013400010020021,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+2016060030,2002,2016060030020021,TwS,Crohn's disease for first time with no history (Thirumurthi) with Black Women
+2016200010,2002,2016200010020021,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+2018260050,2002,2018260050020021,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with Black Women
+2544430030,2002,2544430030020021,TwS,Sjogren's syndrome at first diagnosis with Black Women
+2555730030,2002,2555730030020021,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with Black Women"
+2558480040,2002,2558480040020021,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with Black Women"
+2570070010,2002,2570070010020021,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+2576280030,2002,2576280030020021,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with Black Women
+3123270030,2002,3123270030020021,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with Black Women"
+3124370030,2002,3124370030020021,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with Black Women"
+3129390010,2002,3129390010020021,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3132170060,2002,3132170060020021,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with Black Women"
+3132230010,2002,3132230010020021,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3134590010,2002,3134590010020021,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3138000030,2002,3138000030020021,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with Black Women"
+3143810030,2002,3143810030020021,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with Black Women"
+3143830030,2002,3143830030020021,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with Black Women"
+3161390010,2002,3161390010020021,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3168660030,2002,3168660030020021,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with Black Women
+3170090030,2002,3170090030020021,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with Black Women"
+3187360030,2002,3187360030020021,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with Black Women
+3188000030,2002,3188000030020021,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with Black Women
+3190490030,2002,3190490030020021,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with Black Women
+3210520010,2002,3210520010020021,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3723280010,2002,3723280010020021,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3735030030,2002,3735030030020021,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with Black Women"
+3740210030,2002,3740210030020021,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with Black Women"
+3749190030,2002,3749190030020021,TwS,Multiple Sclerosis (MS) at first diagnosis with Black Women
+3749540010,2002,3749540010020021,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3767130030,2002,3767130030020021,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with Black Women"
+3784190030,2002,3784190030020021,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with Black Women"
+3803780080,2002,3803780080020021,TwS,Epilepsy Moura 1 with Black Women
+3812700010,2002,3812700010020021,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+3813160030,2002,3813160030020021,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with Black Women"
+4327910030,2002,4327910030020021,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with Black Women"
+4328670010,2002,4328670010020021,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4328700030,2002,4328700030020021,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with Black Women"
+4328700040,2002,4328700040020021,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with Black Women"
+4337360030,2002,4337360030020021,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with Black Women
+4341190030,2002,4341190030020021,TwS,Hidradenitis at first diagnosis with Black Women
+4345570030,2002,4345570030020021,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with Black Women
+4345920030,2002,4345920030020021,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with Black Women"
+4357830030,2002,4357830030020021,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with Black Women"
+4360730030,2002,4360730030020021,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with Black Women"
+4361000030,2002,4361000030020021,TwS,Narcolepsy (generalized algorithm from literature) with Black Women
+4366420040,2002,4366420040020021,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4366650010,2002,4366650010020021,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4366760010,2002,4366760010020021,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4369620030,2002,4369620030020021,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with Black Women
+4370820010,2002,4370820010020021,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4372330010,2002,4372330010020021,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4375410010,2002,4375410010020021,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4384090010,2002,4384090010020021,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4397270040,2002,4397270040020021,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with Black Women
+4397760010,2002,4397760010020021,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4403830030,2002,4403830030020021,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with Black Women"
+4404170030,2002,4404170030020021,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with Black Women"
+4406740010,2002,4406740010020021,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4407400010,2002,4407400010020021,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4412020030,2002,4412020030020021,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with Black Women
+4433870010,2002,4433870010020021,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+4434540030,2002,4434540030020021,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with Black Women"
+4440440010,2002,4440440010020021,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+40388380010,2002,40388380010020016,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+40748150030,2002,40748150030020016,TwS,Inflammatory bowel disease with Black Women
+40915590010,2002,40915590010020016,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+41032950030,2002,41032950030020016,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with Black Women"
+41330040050,2002,41330040050020016,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with Black Women"
+41647700030,2002,41647700030020016,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with Black Women"
+41807900010,2002,41807900010020016,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+41813430010,2002,41813430010020016,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+41822100010,2002,41822100010020016,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+42010960030,2002,42010960030020016,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with Black Women
+42459750030,2002,42459750030020016,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with Black Women"
+42461270010,2002,42461270010020016,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+42562280010,2002,42562280010020016,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+42663670030,2002,42663670030020016,TwS,Influenza custom cohort: Flu-like symptom episodes with Black Women
+42812320010,2002,42812320010020016,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+42909760030,2002,42909760030020016,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with Black Women
+43114990010,2002,43114990010020016,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+43220240010,2002,43220240010020016,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+404795890030,2002,4.0479589003002003e+017,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with Black Women
+425357140030,2002,4.2535714003002003e+017,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with Black Women
+435307140030,2002,4.3530714003002003e+017,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with Black Women"
+447842170010,2002,4.4784217001002003e+017,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Black Women
+457636530030,2002,4.5763653003002003e+017,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with Black Women
+462710220060,2002,4.6271022006002003e+017,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with Black Women
 1000,2003,1000020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Female
 1001,2003,1001020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Female
 1002,2003,1002020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Female
@@ -43,10 +403,130 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2003,1005020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Female
 1006,2003,1006020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Female
 1007,2003,1007020031,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Female
-1121,2003,1121020031,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Female
-1122,2003,1122020031,TwS,Incident Asthma/COPD Step 1 with Female
-1123,2003,1123020031,TwS,Incident Asthma/COPD Step 2 with Female
-1124,2003,1124020031,TwS,Incident Asthma/COPD Step 3 with Female
+241340030,2003,241340030020031,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with Female"
+246090030,2003,246090030020031,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with Female
+313170030,2003,313170030020031,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with Female
+319670030,2003,319670030020031,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with Female"
+758600030,2003,758600030020031,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with Female
+801800030,2003,801800030020031,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with Female
+805020010,2003,805020010020031,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+808090030,2003,808090030020031,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with Female
+818930030,2003,818930030020031,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with Female
+819310040,2003,819310040020031,TwS,Psoriatic arthritis with Female
+1327020030,2003,1327020030020031,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with Female
+1327970030,2003,1327970030020031,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with Female"
+1334440010,2003,1334440010020031,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1338340050,2003,1338340050020031,TwS,Atopic dermatitis and Eczema at first diagnosis with Female
+1344420050,2003,1344420050020031,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with Female
+1379770010,2003,1379770010020031,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1383790030,2003,1383790030020031,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with Female"
+1389940010,2003,1389940010020031,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1398030050,2003,1398030050020031,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with Female"
+1401680030,2003,1401680030020031,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with Female
+1403520010,2003,1403520010020031,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female"
+1406730010,2003,1406730010020031,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1414560010,2003,1414560010020031,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1926710030,2003,1926710030020031,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with Female"
+1926750030,2003,1926750030020031,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with Female"
+1941330010,2003,1941330010020031,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1949920010,2003,1949920010020031,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1973200040,2003,1973200040020031,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with Female"
+1974940040,2003,1974940040020031,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with Female"
+1975080010,2003,1975080010020031,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1985710030,2003,1985710030020031,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with Female"
+1989850010,2003,1989850010020031,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+1990740030,2003,1990740030020031,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with Female
+2002190010,2003,2002190010020031,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+2012140010,2003,2012140010020031,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+2012540030,2003,2012540030020031,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with Female
+2013400010,2003,2013400010020031,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+2016060030,2003,2016060030020031,TwS,Crohn's disease for first time with no history (Thirumurthi) with Female
+2016200010,2003,2016200010020031,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+2018260050,2003,2018260050020031,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with Female
+2544430030,2003,2544430030020031,TwS,Sjogren's syndrome at first diagnosis with Female
+2555730030,2003,2555730030020031,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with Female"
+2558480040,2003,2558480040020031,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with Female"
+2570070010,2003,2570070010020031,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+2576280030,2003,2576280030020031,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with Female
+3123270030,2003,3123270030020031,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with Female"
+3124370030,2003,3124370030020031,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with Female"
+3129390010,2003,3129390010020031,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3132170060,2003,3132170060020031,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with Female"
+3132230010,2003,3132230010020031,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3134590010,2003,3134590010020031,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3138000030,2003,3138000030020031,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with Female"
+3143810030,2003,3143810030020031,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with Female"
+3143830030,2003,3143830030020031,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with Female"
+3161390010,2003,3161390010020031,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3168660030,2003,3168660030020031,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with Female
+3170090030,2003,3170090030020031,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with Female"
+3187360030,2003,3187360030020031,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with Female
+3188000030,2003,3188000030020031,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with Female
+3190490030,2003,3190490030020031,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with Female
+3210520010,2003,3210520010020031,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3723280010,2003,3723280010020031,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3735030030,2003,3735030030020031,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with Female"
+3740210030,2003,3740210030020031,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with Female"
+3749190030,2003,3749190030020031,TwS,Multiple Sclerosis (MS) at first diagnosis with Female
+3749540010,2003,3749540010020031,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3767130030,2003,3767130030020031,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with Female"
+3784190030,2003,3784190030020031,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with Female"
+3803780080,2003,3803780080020031,TwS,Epilepsy Moura 1 with Female
+3812700010,2003,3812700010020031,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+3813160030,2003,3813160030020031,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with Female"
+4327910030,2003,4327910030020031,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with Female"
+4328670010,2003,4328670010020031,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4328700030,2003,4328700030020031,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with Female"
+4328700040,2003,4328700040020031,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with Female"
+4337360030,2003,4337360030020031,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with Female
+4341190030,2003,4341190030020031,TwS,Hidradenitis at first diagnosis with Female
+4345570030,2003,4345570030020031,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with Female
+4345920030,2003,4345920030020031,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with Female"
+4357830030,2003,4357830030020031,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with Female"
+4360730030,2003,4360730030020031,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with Female"
+4361000030,2003,4361000030020031,TwS,Narcolepsy (generalized algorithm from literature) with Female
+4366420040,2003,4366420040020031,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4366650010,2003,4366650010020031,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4366760010,2003,4366760010020031,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4369620030,2003,4369620030020031,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with Female
+4370820010,2003,4370820010020031,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4372330010,2003,4372330010020031,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4375410010,2003,4375410010020031,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4384090010,2003,4384090010020031,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4397270040,2003,4397270040020031,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with Female
+4397760010,2003,4397760010020031,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4403830030,2003,4403830030020031,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with Female"
+4404170030,2003,4404170030020031,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with Female"
+4406740010,2003,4406740010020031,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4407400010,2003,4407400010020031,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4412020030,2003,4412020030020031,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with Female
+4433870010,2003,4433870010020031,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+4434540030,2003,4434540030020031,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with Female"
+4440440010,2003,4440440010020031,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+40388380010,2003,40388380010020030,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+40748150030,2003,40748150030020030,TwS,Inflammatory bowel disease with Female
+40915590010,2003,40915590010020030,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+41032950030,2003,41032950030020030,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with Female"
+41330040050,2003,41330040050020030,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with Female"
+41647700030,2003,41647700030020030,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with Female"
+41807900010,2003,41807900010020030,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+41813430010,2003,41813430010020030,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+41822100010,2003,41822100010020030,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+42010960030,2003,42010960030020030,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with Female
+42459750030,2003,42459750030020030,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with Female"
+42461270010,2003,42461270010020030,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+42562280010,2003,42562280010020030,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+42663670030,2003,42663670030020030,TwS,Influenza custom cohort: Flu-like symptom episodes with Female
+42812320010,2003,42812320010020030,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+42909760030,2003,42909760030020030,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with Female
+43114990010,2003,43114990010020030,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+43220240010,2003,43220240010020030,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+404795890030,2003,4.0479589003002003e+017,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with Female
+425357140030,2003,4.2535714003002003e+017,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with Female
+435307140030,2003,4.3530714003002003e+017,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with Female"
+447842170010,2003,4.4784217001002003e+017,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Female
+457636530030,2003,4.5763653003002003e+017,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with Female
+462710220060,2003,4.6271022006002003e+017,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with Female
 1000,2004,1000020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with Male
 1001,2004,1001020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with Male
 1002,2004,1002020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with Male
@@ -55,10 +535,130 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2004,1005020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with Male
 1006,2004,1006020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with Male
 1007,2004,1007020041,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with Male
-1121,2004,1121020041,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with Male
-1122,2004,1122020041,TwS,Incident Asthma/COPD Step 1 with Male
-1123,2004,1123020041,TwS,Incident Asthma/COPD Step 2 with Male
-1124,2004,1124020041,TwS,Incident Asthma/COPD Step 3 with Male
+241340030,2004,241340030020041,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with Male"
+246090030,2004,246090030020041,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with Male
+313170030,2004,313170030020041,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with Male
+319670030,2004,319670030020041,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with Male"
+758600030,2004,758600030020041,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with Male
+801800030,2004,801800030020041,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with Male
+805020010,2004,805020010020041,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+808090030,2004,808090030020041,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with Male
+818930030,2004,818930030020041,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with Male
+819310040,2004,819310040020041,TwS,Psoriatic arthritis with Male
+1327020030,2004,1327020030020041,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with Male
+1327970030,2004,1327970030020041,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with Male"
+1334440010,2004,1334440010020041,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1338340050,2004,1338340050020041,TwS,Atopic dermatitis and Eczema at first diagnosis with Male
+1344420050,2004,1344420050020041,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with Male
+1379770010,2004,1379770010020041,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1383790030,2004,1383790030020041,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with Male"
+1389940010,2004,1389940010020041,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1398030050,2004,1398030050020041,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with Male"
+1401680030,2004,1401680030020041,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with Male
+1403520010,2004,1403520010020041,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male"
+1406730010,2004,1406730010020041,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1414560010,2004,1414560010020041,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1926710030,2004,1926710030020041,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with Male"
+1926750030,2004,1926750030020041,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with Male"
+1941330010,2004,1941330010020041,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1949920010,2004,1949920010020041,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1973200040,2004,1973200040020041,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with Male"
+1974940040,2004,1974940040020041,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with Male"
+1975080010,2004,1975080010020041,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1985710030,2004,1985710030020041,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with Male"
+1989850010,2004,1989850010020041,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+1990740030,2004,1990740030020041,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with Male
+2002190010,2004,2002190010020041,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+2012140010,2004,2012140010020041,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+2012540030,2004,2012540030020041,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with Male
+2013400010,2004,2013400010020041,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+2016060030,2004,2016060030020041,TwS,Crohn's disease for first time with no history (Thirumurthi) with Male
+2016200010,2004,2016200010020041,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+2018260050,2004,2018260050020041,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with Male
+2544430030,2004,2544430030020041,TwS,Sjogren's syndrome at first diagnosis with Male
+2555730030,2004,2555730030020041,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with Male"
+2558480040,2004,2558480040020041,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with Male"
+2570070010,2004,2570070010020041,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+2576280030,2004,2576280030020041,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with Male
+3123270030,2004,3123270030020041,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with Male"
+3124370030,2004,3124370030020041,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with Male"
+3129390010,2004,3129390010020041,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3132170060,2004,3132170060020041,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with Male"
+3132230010,2004,3132230010020041,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3134590010,2004,3134590010020041,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3138000030,2004,3138000030020041,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with Male"
+3143810030,2004,3143810030020041,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with Male"
+3143830030,2004,3143830030020041,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with Male"
+3161390010,2004,3161390010020041,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3168660030,2004,3168660030020041,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with Male
+3170090030,2004,3170090030020041,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with Male"
+3187360030,2004,3187360030020041,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with Male
+3188000030,2004,3188000030020041,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with Male
+3190490030,2004,3190490030020041,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with Male
+3210520010,2004,3210520010020041,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3723280010,2004,3723280010020041,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3735030030,2004,3735030030020041,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with Male"
+3740210030,2004,3740210030020041,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with Male"
+3749190030,2004,3749190030020041,TwS,Multiple Sclerosis (MS) at first diagnosis with Male
+3749540010,2004,3749540010020041,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3767130030,2004,3767130030020041,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with Male"
+3784190030,2004,3784190030020041,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with Male"
+3803780080,2004,3803780080020041,TwS,Epilepsy Moura 1 with Male
+3812700010,2004,3812700010020041,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+3813160030,2004,3813160030020041,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with Male"
+4327910030,2004,4327910030020041,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with Male"
+4328670010,2004,4328670010020041,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4328700030,2004,4328700030020041,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with Male"
+4328700040,2004,4328700040020041,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with Male"
+4337360030,2004,4337360030020041,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with Male
+4341190030,2004,4341190030020041,TwS,Hidradenitis at first diagnosis with Male
+4345570030,2004,4345570030020041,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with Male
+4345920030,2004,4345920030020041,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with Male"
+4357830030,2004,4357830030020041,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with Male"
+4360730030,2004,4360730030020041,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with Male"
+4361000030,2004,4361000030020041,TwS,Narcolepsy (generalized algorithm from literature) with Male
+4366420040,2004,4366420040020041,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4366650010,2004,4366650010020041,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4366760010,2004,4366760010020041,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4369620030,2004,4369620030020041,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with Male
+4370820010,2004,4370820010020041,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4372330010,2004,4372330010020041,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4375410010,2004,4375410010020041,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4384090010,2004,4384090010020041,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4397270040,2004,4397270040020041,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with Male
+4397760010,2004,4397760010020041,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4403830030,2004,4403830030020041,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with Male"
+4404170030,2004,4404170030020041,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with Male"
+4406740010,2004,4406740010020041,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4407400010,2004,4407400010020041,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4412020030,2004,4412020030020041,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with Male
+4433870010,2004,4433870010020041,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+4434540030,2004,4434540030020041,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with Male"
+4440440010,2004,4440440010020041,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+40388380010,2004,40388380010020040,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+40748150030,2004,40748150030020040,TwS,Inflammatory bowel disease with Male
+40915590010,2004,40915590010020040,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+41032950030,2004,41032950030020040,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with Male"
+41330040050,2004,41330040050020040,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with Male"
+41647700030,2004,41647700030020040,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with Male"
+41807900010,2004,41807900010020040,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+41813430010,2004,41813430010020040,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+41822100010,2004,41822100010020040,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+42010960030,2004,42010960030020040,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with Male
+42459750030,2004,42459750030020040,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with Male"
+42461270010,2004,42461270010020040,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+42562280010,2004,42562280010020040,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+42663670030,2004,42663670030020040,TwS,Influenza custom cohort: Flu-like symptom episodes with Male
+42812320010,2004,42812320010020040,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+42909760030,2004,42909760030020040,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with Male
+43114990010,2004,43114990010020040,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+43220240010,2004,43220240010020040,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+404795890030,2004,4.0479589003002003e+017,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with Male
+425357140030,2004,4.2535714003002003e+017,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with Male
+435307140030,2004,4.3530714003002003e+017,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with Male"
+447842170010,2004,4.4784217001002003e+017,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with Male
+457636530030,2004,4.5763653003002003e+017,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with Male
+462710220060,2004,4.6271022006002003e+017,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with Male
 1000,2005,1000020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with White
 1001,2005,1001020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with White
 1002,2005,1002020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with White
@@ -67,10 +667,130 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2005,1005020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with White
 1006,2005,1006020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with White
 1007,2005,1007020051,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with White
-1121,2005,1121020051,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with White
-1122,2005,1122020051,TwS,Incident Asthma/COPD Step 1 with White
-1123,2005,1123020051,TwS,Incident Asthma/COPD Step 2 with White
-1124,2005,1124020051,TwS,Incident Asthma/COPD Step 3 with White
+241340030,2005,241340030020051,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with White"
+246090030,2005,246090030020051,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with White
+313170030,2005,313170030020051,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with White
+319670030,2005,319670030020051,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with White"
+758600030,2005,758600030020051,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with White
+801800030,2005,801800030020051,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with White
+805020010,2005,805020010020051,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+808090030,2005,808090030020051,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with White
+818930030,2005,818930030020051,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with White
+819310040,2005,819310040020051,TwS,Psoriatic arthritis with White
+1327020030,2005,1327020030020051,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with White
+1327970030,2005,1327970030020051,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with White"
+1334440010,2005,1334440010020051,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1338340050,2005,1338340050020051,TwS,Atopic dermatitis and Eczema at first diagnosis with White
+1344420050,2005,1344420050020051,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with White
+1379770010,2005,1379770010020051,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1383790030,2005,1383790030020051,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with White"
+1389940010,2005,1389940010020051,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1398030050,2005,1398030050020051,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with White"
+1401680030,2005,1401680030020051,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with White
+1403520010,2005,1403520010020051,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White"
+1406730010,2005,1406730010020051,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1414560010,2005,1414560010020051,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1926710030,2005,1926710030020051,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with White"
+1926750030,2005,1926750030020051,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with White"
+1941330010,2005,1941330010020051,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1949920010,2005,1949920010020051,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1973200040,2005,1973200040020051,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with White"
+1974940040,2005,1974940040020051,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with White"
+1975080010,2005,1975080010020051,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1985710030,2005,1985710030020051,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with White"
+1989850010,2005,1989850010020051,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+1990740030,2005,1990740030020051,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with White
+2002190010,2005,2002190010020051,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+2012140010,2005,2012140010020051,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+2012540030,2005,2012540030020051,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with White
+2013400010,2005,2013400010020051,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+2016060030,2005,2016060030020051,TwS,Crohn's disease for first time with no history (Thirumurthi) with White
+2016200010,2005,2016200010020051,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+2018260050,2005,2018260050020051,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with White
+2544430030,2005,2544430030020051,TwS,Sjogren's syndrome at first diagnosis with White
+2555730030,2005,2555730030020051,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with White"
+2558480040,2005,2558480040020051,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with White"
+2570070010,2005,2570070010020051,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+2576280030,2005,2576280030020051,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with White
+3123270030,2005,3123270030020051,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with White"
+3124370030,2005,3124370030020051,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with White"
+3129390010,2005,3129390010020051,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3132170060,2005,3132170060020051,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with White"
+3132230010,2005,3132230010020051,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3134590010,2005,3134590010020051,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3138000030,2005,3138000030020051,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with White"
+3143810030,2005,3143810030020051,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with White"
+3143830030,2005,3143830030020051,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with White"
+3161390010,2005,3161390010020051,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3168660030,2005,3168660030020051,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with White
+3170090030,2005,3170090030020051,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with White"
+3187360030,2005,3187360030020051,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with White
+3188000030,2005,3188000030020051,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with White
+3190490030,2005,3190490030020051,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with White
+3210520010,2005,3210520010020051,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3723280010,2005,3723280010020051,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3735030030,2005,3735030030020051,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with White"
+3740210030,2005,3740210030020051,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with White"
+3749190030,2005,3749190030020051,TwS,Multiple Sclerosis (MS) at first diagnosis with White
+3749540010,2005,3749540010020051,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3767130030,2005,3767130030020051,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with White"
+3784190030,2005,3784190030020051,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with White"
+3803780080,2005,3803780080020051,TwS,Epilepsy Moura 1 with White
+3812700010,2005,3812700010020051,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+3813160030,2005,3813160030020051,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with White"
+4327910030,2005,4327910030020051,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with White"
+4328670010,2005,4328670010020051,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4328700030,2005,4328700030020051,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with White"
+4328700040,2005,4328700040020051,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with White"
+4337360030,2005,4337360030020051,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with White
+4341190030,2005,4341190030020051,TwS,Hidradenitis at first diagnosis with White
+4345570030,2005,4345570030020051,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with White
+4345920030,2005,4345920030020051,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with White"
+4357830030,2005,4357830030020051,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with White"
+4360730030,2005,4360730030020051,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with White"
+4361000030,2005,4361000030020051,TwS,Narcolepsy (generalized algorithm from literature) with White
+4366420040,2005,4366420040020051,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4366650010,2005,4366650010020051,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4366760010,2005,4366760010020051,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4369620030,2005,4369620030020051,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with White
+4370820010,2005,4370820010020051,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4372330010,2005,4372330010020051,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4375410010,2005,4375410010020051,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4384090010,2005,4384090010020051,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4397270040,2005,4397270040020051,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with White
+4397760010,2005,4397760010020051,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4403830030,2005,4403830030020051,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with White"
+4404170030,2005,4404170030020051,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with White"
+4406740010,2005,4406740010020051,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4407400010,2005,4407400010020051,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4412020030,2005,4412020030020051,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with White
+4433870010,2005,4433870010020051,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+4434540030,2005,4434540030020051,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with White"
+4440440010,2005,4440440010020051,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+40388380010,2005,40388380010020050,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+40748150030,2005,40748150030020050,TwS,Inflammatory bowel disease with White
+40915590010,2005,40915590010020050,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+41032950030,2005,41032950030020050,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with White"
+41330040050,2005,41330040050020050,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with White"
+41647700030,2005,41647700030020050,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with White"
+41807900010,2005,41807900010020050,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+41813430010,2005,41813430010020050,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+41822100010,2005,41822100010020050,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+42010960030,2005,42010960030020050,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with White
+42459750030,2005,42459750030020050,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with White"
+42461270010,2005,42461270010020050,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+42562280010,2005,42562280010020050,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+42663670030,2005,42663670030020050,TwS,Influenza custom cohort: Flu-like symptom episodes with White
+42812320010,2005,42812320010020050,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+42909760030,2005,42909760030020050,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with White
+43114990010,2005,43114990010020050,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+43220240010,2005,43220240010020050,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+404795890030,2005,4.0479589003002003e+017,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with White
+425357140030,2005,4.2535714003002003e+017,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with White
+435307140030,2005,4.3530714003002003e+017,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with White"
+447842170010,2005,4.4784217001002003e+017,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White
+457636530030,2005,4.5763653003002003e+017,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with White
+462710220060,2005,4.6271022006002003e+017,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with White
 1000,2006,1000020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with White Men
 1001,2006,1001020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with White Men
 1002,2006,1002020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with White Men
@@ -79,10 +799,130 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2006,1005020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with White Men
 1006,2006,1006020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with White Men
 1007,2006,1007020061,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with White Men
-1121,2006,1121020061,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with White Men
-1122,2006,1122020061,TwS,Incident Asthma/COPD Step 1 with White Men
-1123,2006,1123020061,TwS,Incident Asthma/COPD Step 2 with White Men
-1124,2006,1124020061,TwS,Incident Asthma/COPD Step 3 with White Men
+241340030,2006,241340030020061,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with White Men"
+246090030,2006,246090030020061,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with White Men
+313170030,2006,313170030020061,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with White Men
+319670030,2006,319670030020061,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with White Men"
+758600030,2006,758600030020061,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with White Men
+801800030,2006,801800030020061,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with White Men
+805020010,2006,805020010020061,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+808090030,2006,808090030020061,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with White Men
+818930030,2006,818930030020061,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with White Men
+819310040,2006,819310040020061,TwS,Psoriatic arthritis with White Men
+1327020030,2006,1327020030020061,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with White Men
+1327970030,2006,1327970030020061,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with White Men"
+1334440010,2006,1334440010020061,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1338340050,2006,1338340050020061,TwS,Atopic dermatitis and Eczema at first diagnosis with White Men
+1344420050,2006,1344420050020061,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with White Men
+1379770010,2006,1379770010020061,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1383790030,2006,1383790030020061,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with White Men"
+1389940010,2006,1389940010020061,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1398030050,2006,1398030050020061,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with White Men"
+1401680030,2006,1401680030020061,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with White Men
+1403520010,2006,1403520010020061,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men"
+1406730010,2006,1406730010020061,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1414560010,2006,1414560010020061,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1926710030,2006,1926710030020061,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with White Men"
+1926750030,2006,1926750030020061,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with White Men"
+1941330010,2006,1941330010020061,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1949920010,2006,1949920010020061,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1973200040,2006,1973200040020061,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with White Men"
+1974940040,2006,1974940040020061,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with White Men"
+1975080010,2006,1975080010020061,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1985710030,2006,1985710030020061,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with White Men"
+1989850010,2006,1989850010020061,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+1990740030,2006,1990740030020061,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with White Men
+2002190010,2006,2002190010020061,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+2012140010,2006,2012140010020061,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+2012540030,2006,2012540030020061,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with White Men
+2013400010,2006,2013400010020061,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+2016060030,2006,2016060030020061,TwS,Crohn's disease for first time with no history (Thirumurthi) with White Men
+2016200010,2006,2016200010020061,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+2018260050,2006,2018260050020061,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with White Men
+2544430030,2006,2544430030020061,TwS,Sjogren's syndrome at first diagnosis with White Men
+2555730030,2006,2555730030020061,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with White Men"
+2558480040,2006,2558480040020061,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with White Men"
+2570070010,2006,2570070010020061,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+2576280030,2006,2576280030020061,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with White Men
+3123270030,2006,3123270030020061,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with White Men"
+3124370030,2006,3124370030020061,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with White Men"
+3129390010,2006,3129390010020061,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3132170060,2006,3132170060020061,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with White Men"
+3132230010,2006,3132230010020061,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3134590010,2006,3134590010020061,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3138000030,2006,3138000030020061,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with White Men"
+3143810030,2006,3143810030020061,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with White Men"
+3143830030,2006,3143830030020061,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with White Men"
+3161390010,2006,3161390010020061,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3168660030,2006,3168660030020061,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with White Men
+3170090030,2006,3170090030020061,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with White Men"
+3187360030,2006,3187360030020061,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with White Men
+3188000030,2006,3188000030020061,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with White Men
+3190490030,2006,3190490030020061,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with White Men
+3210520010,2006,3210520010020061,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3723280010,2006,3723280010020061,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3735030030,2006,3735030030020061,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with White Men"
+3740210030,2006,3740210030020061,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with White Men"
+3749190030,2006,3749190030020061,TwS,Multiple Sclerosis (MS) at first diagnosis with White Men
+3749540010,2006,3749540010020061,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3767130030,2006,3767130030020061,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with White Men"
+3784190030,2006,3784190030020061,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with White Men"
+3803780080,2006,3803780080020061,TwS,Epilepsy Moura 1 with White Men
+3812700010,2006,3812700010020061,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+3813160030,2006,3813160030020061,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with White Men"
+4327910030,2006,4327910030020061,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with White Men"
+4328670010,2006,4328670010020061,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4328700030,2006,4328700030020061,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with White Men"
+4328700040,2006,4328700040020061,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with White Men"
+4337360030,2006,4337360030020061,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with White Men
+4341190030,2006,4341190030020061,TwS,Hidradenitis at first diagnosis with White Men
+4345570030,2006,4345570030020061,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with White Men
+4345920030,2006,4345920030020061,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with White Men"
+4357830030,2006,4357830030020061,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with White Men"
+4360730030,2006,4360730030020061,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with White Men"
+4361000030,2006,4361000030020061,TwS,Narcolepsy (generalized algorithm from literature) with White Men
+4366420040,2006,4366420040020061,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4366650010,2006,4366650010020061,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4366760010,2006,4366760010020061,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4369620030,2006,4369620030020061,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with White Men
+4370820010,2006,4370820010020061,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4372330010,2006,4372330010020061,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4375410010,2006,4375410010020061,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4384090010,2006,4384090010020061,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4397270040,2006,4397270040020061,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with White Men
+4397760010,2006,4397760010020061,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4403830030,2006,4403830030020061,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with White Men"
+4404170030,2006,4404170030020061,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with White Men"
+4406740010,2006,4406740010020061,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4407400010,2006,4407400010020061,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4412020030,2006,4412020030020061,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with White Men
+4433870010,2006,4433870010020061,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+4434540030,2006,4434540030020061,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with White Men"
+4440440010,2006,4440440010020061,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+40388380010,2006,40388380010020064,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+40748150030,2006,40748150030020064,TwS,Inflammatory bowel disease with White Men
+40915590010,2006,40915590010020064,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+41032950030,2006,41032950030020064,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with White Men"
+41330040050,2006,41330040050020064,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with White Men"
+41647700030,2006,41647700030020064,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with White Men"
+41807900010,2006,41807900010020064,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+41813430010,2006,41813430010020064,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+41822100010,2006,41822100010020064,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+42010960030,2006,42010960030020064,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with White Men
+42459750030,2006,42459750030020064,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with White Men"
+42461270010,2006,42461270010020064,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+42562280010,2006,42562280010020064,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+42663670030,2006,42663670030020064,TwS,Influenza custom cohort: Flu-like symptom episodes with White Men
+42812320010,2006,42812320010020064,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+42909760030,2006,42909760030020064,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with White Men
+43114990010,2006,43114990010020064,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+43220240010,2006,43220240010020064,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+404795890030,2006,4.0479589003002003e+017,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with White Men
+425357140030,2006,4.2535714003002003e+017,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with White Men
+435307140030,2006,4.3530714003002003e+017,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with White Men"
+447842170010,2006,4.4784217001002003e+017,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Men
+457636530030,2006,4.5763653003002003e+017,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with White Men
+462710220060,2006,4.6271022006002003e+017,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with White Men
 1000,2007,1000020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 0-9) with White Women
 1001,2007,1001020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 10-19) with White Women
 1002,2007,1002020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 20-29) with White Women
@@ -91,7 +931,127 @@ targetId,subgroupId,cohortId,cohortType,name
 1005,2007,1005020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 50-59) with White Women
 1006,2007,1006020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 60-69) with White Women
 1007,2007,1007020071,TwS,Persons observed in 2017 with 3yr prior observation (Age 70-79) with White Women
-1121,2007,1121020071,TwS,Incident Asthma or Chronic obstructive pulmonary disease (COPD) with White Women
-1122,2007,1122020071,TwS,Incident Asthma/COPD Step 1 with White Women
-1123,2007,1123020071,TwS,Incident Asthma/COPD Step 2 with White Women
-1124,2007,1124020071,TwS,Incident Asthma/COPD Step 3 with White Women
+241340030,2007,241340030020071,TwS,"Neck pain cohort: First occurrence of ""neck pain"" concept Without descendants with White Women"
+246090030,2007,246090030020071,TwS,'Hypoglycemia disorder' incident cohort: First occurrence + descendants with >=365d prior observation with White Women
+313170030,2007,313170030020071,TwS,Dysphagia incident cohort: First occurrence of Dysphagia and Difficulty swallowing descendants with >=365d prior observation with White Women
+319670030,2007,319670030020071,TwS,"Nausea Events All Events of referent concept ""Nausea + descendants"" with 30 day gap with White Women"
+758600030,2007,758600030020071,TwS,Constipation Events: all occurrence of referent concept + descendants with 30 days gap with White Women
+801800030,2007,801800030020071,TwS,Osteoarthritis incident cohort: First occurrence of 'osteoarthritis' concept with >=365d prior observation with White Women
+805020010,2007,805020010020071,TwS,Osteoporosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+808090030,2007,808090030020071,TwS,Rheumatoid arthritis at first diagnosis (no history of Rheumatoid arthritis) with White Women
+818930030,2007,818930030020071,TwS,Ulcerative colitis at first diagnosis with no history of ulcerative colitis with White Women
+819310040,2007,819310040020071,TwS,Psoriatic arthritis with White Women
+1327020030,2007,1327020030020071,TwS,Erythema multiforme incident cohort: First occurrence of 'Erythema multiforme or Stevens Johnson Syndrome' concept with >=365d prior observation with White Women
+1327970030,2007,1327970030020071,TwS,"Sepsis during hospitalization, defined by condition occurrences of 'sepsis' conceptset occurring between start and end of inpatient visit with White Women"
+1334440010,2007,1334440010020071,TwS,Thyroiditis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1338340050,2007,1338340050020071,TwS,Atopic dermatitis and Eczema at first diagnosis with White Women
+1344420050,2007,1344420050020071,TwS,Systemic sclerosis or or localized scleroderma at first diagnosis with White Women
+1379770010,2007,1379770010020071,TwS,Jaundice referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1383790030,2007,1383790030020071,TwS,"Chronic lymphoid leukemia, disease referent concept prevalent cohort: First occurrence of updated concept set + descendants (condition and observation domain) with White Women"
+1389940010,2007,1389940010020071,TwS,Myelodysplastic syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1398030050,2007,1398030050020071,TwS,"Transverse myelitis events, using diagnosis codes from Marrie MSRD 2018 with White Women"
+1401680030,2007,1401680030020071,TwS,Psoriasis at first diagnosis (no history of Psoriasis) with White Women
+1403520010,2007,1403520010020071,TwS,"Acute myeloid leukemia, disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women"
+1406730010,2007,1406730010020071,TwS,Hypothyroidism referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1414560010,2007,1414560010020071,TwS,Chilblains referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1926710030,2007,1926710030020071,TwS,"Gastrointestinal bleeding events, defined by condition occurrences of 'Gastrointestinal hemorrhage GI bleeding' conceptset occurring between start and end of inpatient or ER visit with White Women"
+1926750030,2007,1926750030020071,TwS,"Primary biliary cirrhosis for first time in patients history, with exclusion of secondary biliary cirrhosis with White Women"
+1941330010,2007,1941330010020071,TwS,Low back pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1949920010,2007,1949920010020071,TwS,Celiac disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1973200040,2007,1973200040020071,TwS,"Acute kidney injury diagnosis during hospitalization, defined by condition occurrences of 'acute renal failure' conceptset occurring between start and end of inpatient visit with White Women"
+1974940040,2007,1974940040020071,TwS,"Hepatitis C prevalent cohort: First condition occurrence of 'Hepatitis C' conceptset (with Viral Hepatitis Carrier, Cirrhosis of liver due to chronic hepatitis C) with White Women"
+1975080010,2007,1975080010020071,TwS,Malignant tumor of urinary bladder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1985710030,2007,1985710030020071,TwS,"Cardiogenic shock by Vallabhajosyula, All events of Cardiogenic shock during inpatient or ER with White Women"
+1989850010,2007,1989850010020071,TwS,Primary malignant neoplasm of kidney referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+1990740030,2007,1990740030020071,TwS,Acute pancreatitis prevalent cohort: defined by condition occurrences of 'Acute pancreatitis' conceptset occurring between start and end of inpatient or ER visit with White Women
+2002190010,2007,2002190010020071,TwS,Abdominal pain referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+2012140010,2007,2012140010020071,TwS,Toxic shock syndrome referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+2012540030,2007,2012540030020071,TwS,Type 1 diabetes mellitus incident cohort: First occurrence of 'Type 1 diabetes mellitus' concept with >=365d prior observation with White Women
+2013400010,2007,2013400010020071,TwS,Gastritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+2016060030,2007,2016060030020071,TwS,Crohn's disease for first time with no history (Thirumurthi) with White Women
+2016200010,2007,2016200010020071,TwS,Kidney stone referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+2018260050,2007,2018260050020071,TwS,Type 2 diabetes mellitus incident cohort: First condition occurrence of 'Type 2 diabetes mellitus' conceptset or Type 2 diabetes treatment or HbA1c > 6.5 and no prior observation of 'History of diabetes' with White Women
+2544430030,2007,2544430030020071,TwS,Sjogren's syndrome at first diagnosis with White Women
+2555730030,2007,2555730030020071,TwS,"Hospitalization for Chronic obstructive pulmonary disease, defined by inpatient visit with a primary condition occurrence of 'COPD' conceptset with White Women"
+2558480040,2007,2558480040020071,TwS,"Pneumonia prevalent cohort: Episodes of pneumonia, defined by condition occurrences of 'pneumonia' conceptset with White Women"
+2570070010,2007,2570070010020071,TwS,Allergic rhinitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+2576280030,2007,2576280030020071,TwS,Systemic lupus erythematosus (SLE) at first diagnosis with White Women
+3123270030,2007,3123270030020071,TwS,"Acute myocardial infarction events, defined by condition occurrences of 'Acute myocardial Infarction' conceptset occurring between start and end of inpatient or ER visit with White Women"
+3124370030,2007,3124370030020071,TwS,"Dyspnea prevalent cohort: Episodes of dyspnea, defined by condition occurrences of 'shortness of breath (dyspnea)' conceptset with White Women"
+3129390010,2007,3129390010020071,TwS,Thromboangiitis obliterans referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3132170060,2007,3132170060020071,TwS,"Atrial fibrillation incident cohort: First occurrence of Atrial fibrillation with descendants with >=365d prior observation, removing family history code with White Women"
+3132230010,2007,3132230010020071,TwS,Granulomatosis with polyangiitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3134590010,2007,3134590010020071,TwS,Sleep apnea referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3138000030,2007,3138000030020071,TwS,"Thrombotic microangiopathy events, based on diagnosis codes from Reynolds AJKD 2003 and Perkins NDT 2006 with White Women"
+3143810030,2007,3143810030020071,TwS,"Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome) episodes, defined by condition occurrences of 'Toxic shock syndrome or kawasaki disease' conceptset with White Women"
+3143830030,2007,3143830030020071,TwS,"Myocarditis by SundbÃ¸ll, First diagnosis of custom codes from SundbÃ¸ll, during inpatient or outpatient with White Women"
+3161390010,2007,3161390010020071,TwS,Heart failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3168660030,2007,3168660030020071,TwS,Hypertensive disorder prevalent cohort: First condition occurrence of 'Hypertension' conceptset with White Women
+3170090030,2007,3170090030020071,TwS,"Hospitalization for Asthma, defined by inpatient visit with a primary condition occurrence of 'asthma' conceptset with White Women"
+3187360030,2007,3187360030020071,TwS,Migraine incident cohort: First occurrence of 'Migraine excluding abdominal migraine'+ descendants excluding abdominal migraine with >=365d prior observation with White Women
+3188000030,2007,3188000030020071,TwS,Gastroesophageal reflux disease incident cohort: First occurrence of 'GERD' concept with >=365d prior observation with White Women
+3190490030,2007,3190490030020071,TwS,Acute respiratory failure incident cohort: First occurrence of 'Acute respiratory failure' conceptset with >=365d prior observation with White Women
+3210520010,2007,3210520010020071,TwS,Peripheral vascular disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3723280010,2007,3723280010020071,TwS,Otitis media referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3735030030,2007,3735030030020071,TwS,"Transient ischemic attack events, defined by condition occurrences of 'Transient cerebral Ischemia (TCA)' conceptset occurring between start and end of inpatient or ER visit with White Women"
+3740210030,2007,3740210030020071,TwS,"Acute disseminated encephalomyelitis hospitalization events, using diagnosis codes from Minegishi 2019 with White Women"
+3749190030,2007,3749190030020071,TwS,Multiple Sclerosis (MS) at first diagnosis with White Women
+3749540010,2007,3749540010020071,TwS,Optic neuritis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3767130030,2007,3767130030020071,TwS,"Hemorrhagic stroke events, defined by condition occurrences of 'intracranial bleed Hemorrhagic stroke' conceptset occurring between start and end of inpatient or ER visit with White Women"
+3784190030,2007,3784190030020071,TwS,"Alzheimer's disease by Imfeld Epilepsia, 2013 with White Women"
+3803780080,2007,3803780080020071,TwS,Epilepsy Moura 1 with White Women
+3812700010,2007,3812700010020071,TwS,Parkinson's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+3813160030,2007,3813160030020071,TwS,"Stroke events, defined by condition occurrences of 'Stroke (ischemic or hemorrhagic)' conceptset occurring between start and end of inpatient or ER visit with White Women"
+4327910030,2007,4327910030020071,TwS,"Angioedema events, defined by condition occurrences of 'Angioedema' conceptset occurring between start and end of inpatient or ER visit with White Women"
+4328670010,2007,4328670010020071,TwS,Hyperlipidemia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4328700030,2007,4328700030020071,TwS,"Idiopathic thrombocytopenic purpura events, as defined by diagnosis codes from Shaw Platelets 2020 with White Women"
+4328700040,2007,4328700040020071,TwS,"Thrombocytopenia events, as defined by diagnosis codes from Altomare ClinEpi 2016 with White Women"
+4337360030,2007,4337360030020071,TwS,Obesity prevalent cohort: Earliest of condition occurrence or observation of 'obesity diagnoses' conceptset or BMI > 30 or body weight > 120kg with White Women
+4341190030,2007,4341190030020071,TwS,Hidradenitis at first diagnosis with White Women
+4345570030,2007,4345570030020071,TwS,Tuberculosis prevalent cohort: First condition occurrence of 'Respiratory and pulmonary tuberculosis' conceptset with White Women
+4345920030,2007,4345920030020071,TwS,"B-cell lymphoma incident cohort: First occurrence of ""B-cell lymphoma"" with exclusions + descendants with >=365d prior observation with White Women"
+4357830030,2007,4357830030020071,TwS,"Schizophrenia by Ren, 2005 and repeated in literature with White Women"
+4360730030,2007,4360730030020071,TwS,"Hospitalization for Psychosis, defined by inpatient visit with a primary condition occurrence of 'psychosis' conceptset with White Women"
+4361000030,2007,4361000030020071,TwS,Narcolepsy (generalized algorithm from literature) with White Women
+4366420040,2007,4366420040020071,TwS,Behcet's syndrome custom concept (includes arthropathy) incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4366650010,2007,4366650010020071,TwS,Bipolar disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4366760010,2007,4366760010020071,TwS,Posttraumatic stress disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4369620030,2007,4369620030020071,TwS,Insomnia with disorders of maintaing sleep concept prevalent cohort: First occurrence of expanded concept + descendants (excluding hypo/hypersomnias) with White Women
+4370820010,2007,4370820010020071,TwS,Ankylosing spondylitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4372330010,2007,4372330010020071,TwS,Multiple myeloma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4375410010,2007,4375410010020071,TwS,Glaucoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4384090010,2007,4384090010020071,TwS,Attention deficit hyperactivity disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4397270040,2007,4397270040020071,TwS,HIV prevalent cohort: First occurrence of 'HIV excluding HIV-II' conceptset with White Women
+4397760010,2007,4397760010020071,TwS,Autism spectrum disorder referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4403830030,2007,4403830030020071,TwS,"Depressive disorder prevalent cohort, defined as the earliest condition occurrence of 'Depressive disorder' conceptset with no teratment more than 30 days prior and no prior psychosies/mania with White Women"
+4404170030,2007,4404170030020071,TwS,"Pulmonary embolism events, defined by condition occurrences of 'Pulmonary embolism' conceptset with White Women"
+4406740010,2007,4406740010020071,TwS,Gout referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4407400010,2007,4407400010020071,TwS,Takayasu's disease referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4412020030,2007,4412020030020071,TwS,Anaphylactic reaction by Walsh (Mini-sentinial validated definition) with White Women
+4433870010,2007,4433870010020071,TwS,Malignant tumor of stomach referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+4434540030,2007,4434540030020071,TwS,"Ischemic stroke events, defined by condition occurrences of 'Ischemic stroke' conceptset occurring between start and end of inpatient or ER visit with White Women"
+4440440010,2007,4440440010020071,TwS,Acute tubular necrosis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+40388380010,2007,40388380010020070,TwS,Non-Hodgkin's lymphoma referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+40748150030,2007,40748150030020070,TwS,Inflammatory bowel disease with White Women
+40915590010,2007,40915590010020070,TwS,Facial palsy referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+41032950030,2007,41032950030020070,TwS,"ventricular arrhythmia or cardiac arrest during hospitalization, defined by condition occurrences of 'ventricular arrhythmia or cardiac arrest' conceptset occurring between start and end of inpatient visit with White Women"
+41330040050,2007,41330040050020070,TwS,"Deep vein thrombosis events, defined by condition occurrences of 'deep vein thrombosis' conceptset with White Women"
+41647700030,2007,41647700030020070,TwS,"Guillain-Barre syndrome inpatient (Arya et al, ScallenWalter et al, Iqbal et al, Anandan et al, Rasmussen et al. Baxter et al.) with White Women"
+41807900010,2007,41807900010020070,TwS,Malignant tumor of colon referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+41813430010,2007,41813430010020070,TwS,Malignant tumor of esophagus referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+41822100010,2007,41822100010020070,TwS,Dementia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+42010960030,2007,42010960030020070,TwS,Aseptic meningitis by Perez-Vilar (specific codes for meningitias excluding encephalitis diagnosis) with White Women
+42459750030,2007,42459750030020070,TwS,"Hepatic failure prevalent cohort: First condition occurrence of 'hepatic failure, necrosis or coma' conceptset with White Women"
+42461270010,2007,42461270010020070,TwS,Malignant neoplasm of liver referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+42562280010,2007,42562280010020070,TwS,Respiratory failure referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+42663670030,2007,42663670030020070,TwS,Influenza custom cohort: Flu-like symptom episodes with White Women
+42812320010,2007,42812320010020070,TwS,Type B viral hepatitis referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+42909760030,2007,42909760030020070,TwS,Giant cell arteritis at first diagnosis (no history of giant cell arteritis) with White Women
+43114990010,2007,43114990010020070,TwS,Primary malignant neoplasm of respiratory tract referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+43220240010,2007,43220240010020070,TwS,Pulmonary hypertension referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+404795890030,2007,404795890030020100,TwS,Stress Cardiomyopathy as per Bhat et al (US 2020) with White Women
+425357140030,2007,425357140030020100,TwS,Vasculitis associated with Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis with White Women
+435307140030,2007,435307140030020100,TwS,"Anosmia OR Hyposmia OR Dysgeusia episodes, defined by condition occurrences of 'Altered smell or taste' conceptset with White Women"
+447842170010,2007,447842170010020100,TwS,Cardiac arrhythmia referent concept incident cohort: First occurrence of referent concept + descendants with >=365d prior observation with White Women
+457636530030,2007,457636530030020100,TwS,Fracture of bone of hip region (dx + px) referent concept incident cohort (aged 50-89): First occurrence of hip fracture dx or procedure with >=365d prior observation with White Women
+462710220060,2007,462710220060020100,TwS,Chronic kidney disease incident cohort: First condition occurrence of 'chronic kidney disease' conceptset with White Women
