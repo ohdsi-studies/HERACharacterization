@@ -1,7 +1,7 @@
 Package: HERACharacterization
 Type: Package
 Title: Health Equity Research Assessment
-Version: 0.0.1
+Version: 1.0.0
 Author: Anthony G. Sena [aut, cre]
 Maintainer: Anthony G. Sena <asena5@its.jnj.com>
 Description: A large scale characterization of gender and racial disparites
@@ -10,8 +10,6 @@ VignetteBuilder: knitr
 Depends:
   DatabaseConnector (>= 3.0.0)
 Imports:
-  CohortDiagnostics (>= 1.2.2),
-  FeatureExtraction (>= 3.0.0),
   ParallelLogger (>= 2.0.0),
   OhdsiSharing (>= 0.2.2),
   SqlRender (>= 1.6.6),
@@ -33,8 +31,6 @@ Suggests:
   knitr,
   rmarkdown
 Remotes:
-  OHDSI/CohortDiagnostics,
-  OHDSI/FeatureExtraction,
   OHDSI/OhdsiSharing
 URL: https://github.com/ohdsi-studies/HERACharacterization
 BugReports: https://github.com/OHDSI/HERACharacterization/issues

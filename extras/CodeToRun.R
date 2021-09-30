@@ -56,22 +56,6 @@ setwd(outputFolder)
 cohortIdsToExcludeFromExecution <- c()
 cohortIdsToExcludeFromResultsExport <- NULL
 
-# # Run cohort diagnostics -----------------------------------
-# runCohortDiagnostics(connectionDetails = connectionDetails,
-#                      cdmDatabaseSchema = cdmDatabaseSchema,
-#                      cohortDatabaseSchema = cohortDatabaseSchema,
-#                      cohortTable = cohortTable,
-#                      oracleTempSchema = oracleTempSchema,
-#                      cohortIdsToExcludeFromExecution = cohortIdsToExcludeFromExecution,
-#                      exportFolder = outputFolder,
-#                      databaseId = databaseId,
-#                      databaseName = databaseName,
-#                      databaseDescription = databaseDescription,
-#                      minCellCount = minCellCount)
-
-# Use the next command to review cohort diagnostics
-#launchDiagnosticsShinyApp(file.path(outputFolder, 'diagnostics'))
-
 # Use this to run the study. The results will be stored in a zip file called
 # 'Results_<databaseId>.zip in the outputFolder.
 runStudy(connectionDetails = connectionDetails,
