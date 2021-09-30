@@ -302,3 +302,10 @@ if (!all(utf8::utf8_valid(packageFiles))) {
 
 # Create the Renv lock file
 OhdsiRTools::createRenvLockFile("HERACharacterization")
+
+# Fix numbering scheme for xref file
+targetsubgroupXRef <- readr::read_csv(system.file("settings/targetSubgroupXref.csv", package = "HERACharacterization"))
+usedCohortIds <- c(unique(targetsubgroupXRef$targetId), unique(targetsubgroupXRef$subgroupId))
+availableCohortIds <- setdiff(3000:(3000+(nrow(targetsubgroupXRef)*2)), usedCohortIds)
+targetsubgroupXRef$cohortId <- availableCohortIds[1:nrow(targetsubgroupXRef)]
+readr::write_csv(targetsubgroupXRef, "inst/settings/targetSubgroupXref.csv")
