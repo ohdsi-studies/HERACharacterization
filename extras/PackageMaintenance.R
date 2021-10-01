@@ -309,3 +309,30 @@ usedCohortIds <- c(unique(targetsubgroupXRef$targetId), unique(targetsubgroupXRe
 availableCohortIds <- setdiff(3000:(3000+(nrow(targetsubgroupXRef)*2)), usedCohortIds)
 targetsubgroupXRef$cohortId <- availableCohortIds[1:nrow(targetsubgroupXRef)]
 readr::write_csv(targetsubgroupXRef, "inst/settings/targetSubgroupXref.csv")
+
+# Fix the Shiny xref file
+xrefColumnNames <- c("cohortId",
+                     "targetId",
+                     "targetName",
+                     "subgroupId",
+                     "subgroupName",
+                     "cohortType")
+targetCohortsForShiny <- heraTargetCohorts
+targetCohortsForShiny$cohortId <- targetCohortsForShiny$targetId
+targetCohortsForShiny$subgroupId <- 0
+targetCohortsForShiny$subgroupName <- "All"
+targetCohortsForShiny$cohortType <- "Target"
+
+names(targetCohorts) <- c("targetName", "atlasName", "atlasId", "targetId")
+names(derivedCohorts) <- c("cohortId", "targetId", "targetName")
+allTargetCohorts <- rbind(targetCohorts[,c("targetId", "targetName")],
+                          derivedCohorts[,c("targetId", "targetName")])
+names(atlasCohortSubgroup) <- c("subgroupName", "atlasName", "atlasId", "subgroupId")
+targetsubgroupXRefForShiny <- merge(x=targetsubgroupXRef, y=allTargetCohorts)
+targetsubgroupXRefForShiny <- merge(x=targetsubgroupXRefForShiny, y=atlasCohortSubgroup[,c("subgroupId", "subgroupName")])
+targetsubgroupXRefForShiny <- targetsubgroupXRefForShiny[,xrefColumnNames]
+
+shinyCohortXref <- rbind(targetCohortsForShiny,
+                         targetsubgroupXRefForShiny)
+
+readr::write_csv(shinyCohortXref, file.path("inst/shiny/ResultsExplorer", "cohortXref.csv"))

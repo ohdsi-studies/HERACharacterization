@@ -145,12 +145,20 @@ createBulkSubgroupFromCohorts <- function(connection,
 }
 
 cohortSubgroupXrefTempTableSql <- function(connection, targetSubgroupXref, oracleTempSchema) {
-  sql <- "WITH data AS (
+  sql <- "CREATE TABLE #TARGET_SUBGROUP_XREF (
+            target_id BIGINT,
+          	subgroup_id BIGINT,
+          	cohort_id BIGINT,
+          	cohort_type VARCHAR(50)
+        	);
+        	
+        	INSERT INTO #TARGET_SUBGROUP_XREF (
+        	  target_id,subgroup_id,cohort_id,cohort_type
+        	)
+        	SELECT target_id,subgroup_id,cohort_id,cohort_type
+        	FROM (
             @unions
-          ) 
-          SELECT target_id,subgroup_id,cohort_id,cohort_type
-          INTO #TARGET_SUBGROUP_XREF 
-          FROM data;"
+          ) data;"
   unions <- "";
   for(i in 1:nrow(targetSubgroupXref)) {
     stmt <- paste0("SELECT ", targetSubgroupXref$targetId[i], " target_id, ", 
