@@ -20,8 +20,7 @@ FROM
   (
   -- Begin Observation Period Criteria
 select C.person_id, C.observation_period_id as event_id, C.observation_period_start_date as start_date, C.observation_period_end_date as end_date,
-       C.period_type_concept_id as TARGET_CONCEPT_ID, CAST(NULL as bigint) as visit_occurrence_id,
-       C.observation_period_start_date as sort_date
+       CAST(NULL as bigint) as visit_occurrence_id, C.observation_period_start_date as sort_date
 
 from 
 (
@@ -231,6 +230,7 @@ INSERT INTO @target_database_schema.@target_cohort_table (cohort_definition_id, 
 select @target_cohort_id as cohort_definition_id, person_id, start_date, end_date 
 FROM #final_cohort CO
 ;
+
 
 
 
