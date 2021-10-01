@@ -10,6 +10,7 @@ VignetteBuilder: knitr
 Depends:
   DatabaseConnector (>= 3.0.0)
 Imports:
+  FeatureExtraction (>= 3.0.0),
   ParallelLogger (>= 2.0.0),
   OhdsiSharing (>= 0.2.2),
   SqlRender (>= 1.6.6),

@@ -86,7 +86,6 @@ getCohortCharacteristics <- function(connectionDetails = NULL,
     binaryCovs <- data$covariates %>% 
       dplyr::select(.data$covariateId, .data$averageValue, .data$sumValue) %>% 
       dplyr::rename(mean = .data$averageValue) %>% 
-      dplyr::rename(count = .data$sumValue) %>% 
       dplyr::collect()
     binaryCovs$sd <- sqrt((n * counts + counts)/(n^2))
     result <- rbind(result, binaryCovs)
@@ -165,7 +164,7 @@ createBulkCharacteristics <- function(connection,
 #' in createBulkCharacteristics
 #'
 writeBulkCharacteristics <- function(connection, oracleTempSchema, counts, minCellCount, databaseId, exportFolder) {
-  sql <- "SELECT ar.cohort_id, ar.covariate_id, ar.mean, ar.sd, cr.covariate_name, cr.analysis_id
+  sql <- "SELECT ar.cohort_id, ar.covariate_id, sum_value, ar.mean, ar.sd, cr.covariate_name, cr.analysis_id
           FROM #analysis_results ar
           INNER JOIN #cov_ref cr ON ar.covariate_id = cr.covariate_id
           ;"
