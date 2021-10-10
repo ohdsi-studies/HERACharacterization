@@ -115,31 +115,31 @@ runStudy <- function(connectionDetails = NULL,
                          inclusionStatisticsFolder = exportFolder)
   }
 
-  # # Create the derived target cohorts
-  # ParallelLogger::logInfo("**********************************************************")
-  # ParallelLogger::logInfo(" ---- Creating derived target cohorts ---- ")
-  # ParallelLogger::logInfo("**********************************************************")
-  # createDerivedCohorts(connection = connection,
-  #                      cdmDatabaseSchema = cdmDatabaseSchema,
-  #                      cohortDatabaseSchema = cohortDatabaseSchema,
-  #                      cohortTable = cohortTable,
-  #                      oracleTempSchema = oracleTempSchema)
-  # 
-  # # At this point, the derived target cohorts are created 
-  # # add them to the list of targetCohortIds so that they are
-  # # part of the subgrouping below
-  # targetCohortIds <- c(targetCohortIds, as.numeric(unlist(HERACharacterization::getCohortsToDeriveTarget()[,c("cohortId")])))
-  # 
-  # # Create the subgrouped cohorts
-  # ParallelLogger::logInfo("**********************************************************")
-  # ParallelLogger::logInfo(" ---- Creating subgrouped target cohorts ---- ")
-  # ParallelLogger::logInfo("**********************************************************")
-  # createBulkSubgroup(connection = connection,
-  #                  cdmDatabaseSchema = cdmDatabaseSchema,
-  #                  cohortDatabaseSchema = cohortDatabaseSchema,
-  #                  cohortTable = cohortTable,
-  #                  targetIds = targetCohortIds,
-  #                  oracleTempSchema = oracleTempSchema)
+  # Create the derived target cohorts
+  ParallelLogger::logInfo("**********************************************************")
+  ParallelLogger::logInfo(" ---- Creating derived target cohorts ---- ")
+  ParallelLogger::logInfo("**********************************************************")
+  createDerivedCohorts(connection = connection,
+                       cdmDatabaseSchema = cdmDatabaseSchema,
+                       cohortDatabaseSchema = cohortDatabaseSchema,
+                       cohortTable = cohortTable,
+                       oracleTempSchema = oracleTempSchema)
+
+  # At this point, the derived target cohorts are created
+  # add them to the list of targetCohortIds so that they are
+  # part of the subgrouping below
+  targetCohortIds <- c(targetCohortIds, as.numeric(unlist(HERACharacterization::getCohortsToDeriveTarget()[,c("cohortId")])))
+
+  # Create the subgrouped cohorts
+  ParallelLogger::logInfo("**********************************************************")
+  ParallelLogger::logInfo(" ---- Creating subgrouped target cohorts ---- ")
+  ParallelLogger::logInfo("**********************************************************")
+  createBulkSubgroup(connection = connection,
+                   cdmDatabaseSchema = cdmDatabaseSchema,
+                   cohortDatabaseSchema = cohortDatabaseSchema,
+                   cohortTable = cohortTable,
+                   targetIds = targetCohortIds,
+                   oracleTempSchema = oracleTempSchema)
 
   # Compute the features
   ParallelLogger::logInfo("**********************************************************")
@@ -152,20 +152,20 @@ runStudy <- function(connectionDetails = NULL,
                            oracleTempSchema = oracleTempSchema)
 
   # Save database metadata ---------------------------------------------------------------
-  # ParallelLogger::logInfo("Saving database metadata")
-  # op <- getObservationPeriodDateRange(connection, 
-  #                                     cdmDatabaseSchema = cdmDatabaseSchema, 
-  #                                     oracleTempSchema = oracleTempSchema)
-  # database <- data.frame(databaseId = databaseId,
-  #                        databaseName = databaseName,
-  #                        description = databaseDescription,
-  #                        vocabularyVersion = getVocabularyInfo(connection = connection,
-  #                                                              cdmDatabaseSchema = cdmDatabaseSchema,
-  #                                                              oracleTempSchema = oracleTempSchema),
-  #                        minObsPeriodDate = op$minObsPeriodDate,
-  #                        maxObsPeriodDate = op$maxObsPeriodDate,
-  #                        isMetaAnalysis = 0)
-  # writeToCsv(database, file.path(exportFolder, "database.csv"))
+  ParallelLogger::logInfo("Saving database metadata")
+  op <- getObservationPeriodDateRange(connection,
+                                      cdmDatabaseSchema = cdmDatabaseSchema,
+                                      oracleTempSchema = oracleTempSchema)
+  database <- data.frame(databaseId = databaseId,
+                         databaseName = databaseName,
+                         description = databaseDescription,
+                         vocabularyVersion = getVocabularyInfo(connection = connection,
+                                                               cdmDatabaseSchema = cdmDatabaseSchema,
+                                                               oracleTempSchema = oracleTempSchema),
+                         minObsPeriodDate = op$minObsPeriodDate,
+                         maxObsPeriodDate = op$maxObsPeriodDate,
+                         isMetaAnalysis = 0)
+  writeToCsv(database, file.path(exportFolder, "database.csv"))
 
   # Counting cohorts -----------------------------------------------------------------------
   ParallelLogger::logInfo("Counting cohorts")
