@@ -32,6 +32,7 @@ Suggests:
   knitr,
   rmarkdown
 Remotes:
+  OHDSI/FeatureExtraction,
   OHDSI/OhdsiSharing
 URL: https://github.com/ohdsi-studies/HERACharacterization
 BugReports: https://github.com/OHDSI/HERACharacterization/issues
