@@ -1,6 +1,3 @@
-# Please see code in extras/ProjectSetup.R to ensure
-# you have installed and initialized "renv" for this
-# project.
 library(HERACharacterization)
 
 # Specify where the temporary files (used by the Andromeda package) will be created:
