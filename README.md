@@ -112,7 +112,13 @@ Health Equity Research Assessment (HERA): a large scale characterization of gend
              minCellCount = minCellCount)
     ```
 
-6.  Review the results by using the Shiny application included in the study package: `r     # Use the next set of commands to compress results and view the output.     preMergeResultsFiles(outputFolder)      launchShinyApp(outputFolder)`
+6.  Review the results by using the Shiny application included in the study package: 
+
+    ```r     
+      # Use the next set of commands to compress results and view the output.     
+      preMergeResultsFiles(outputFolder)      
+      launchShinyApp(outputFolder)
+    ```
 
 7.  Upload the file `export/Results_<DatabaseId>.zip` in the output folder to the study coordinator:
 
