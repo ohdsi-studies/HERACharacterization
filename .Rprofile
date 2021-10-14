@@ -1,2 +1,2 @@
-options(install.opts = list(roxygen2 = "--no-multiarch"))
+#options(install.opts = list(roxygen2 = "--no-multiarch"))
 source("renv/activate.R")

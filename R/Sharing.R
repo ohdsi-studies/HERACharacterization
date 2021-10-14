@@ -19,11 +19,6 @@ rootFTPFolder <- function() {
 }
 
 #' @export
-uploadDiagnosticsResults <- function(outputFolder, privateKeyFileName, userName) {
-  uploadResults(file.path(outputFolder, "diagnostics"), privateKeyFileName, userName, remoteFolder = paste0(rootFTPFolder(), "CohortDiagnostics"))
-}
-
-#' @export
 uploadStudyResults <- function(outputFolder, privateKeyFileName, userName) {
   uploadResults(outputFolder, privateKeyFileName, userName, remoteFolder = paste0(rootFTPFolder(), "StudyResults"))
 }

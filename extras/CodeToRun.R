@@ -1,6 +1,3 @@
-# Please see code in extras/ProjectSetup.R to ensure
-# you have installed and initialized "renv" for this
-# project.
 library(HERACharacterization)
 
 # Specify where the temporary files (used by the Andromeda package) will be created:
@@ -11,35 +8,29 @@ options(andromedaTempFolder = andromedaTempFolder)
 dbms <- Sys.getenv("DBMS")
 user <- if (Sys.getenv("DB_USER") == "") NULL else Sys.getenv("DB_USER")
 password <- if (Sys.getenv("DB_PASSWORD") == "") NULL else Sys.getenv("DB_PASSWORD")
-connectionString <- if (Sys.getenv("DB_CONNECTION_STRING") == "") NULL else Sys.getenv("DB_CONNECTION_STRING")
 server <- Sys.getenv("DB_SERVER")
+extraSettings <- if (Sys.getenv("DB_EXTRA_SETTINGS") == "") NULL else Sys.getenv("DB_EXTRA_SETTINGS")
 port <- Sys.getenv("DB_PORT")
+
 # For Oracle: define a schema that can be used to emulate temp tables:
 oracleTempSchema <- NULL
 
-if (!is.null(connectionString)) {
-  connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
-                                                                  connectionString = connectionString,
-                                                                  user = user,
-                                                                  password = password)
+connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
+                                                                server = server,
+                                                                extraSettings = extraSettings,
+                                                                user = user,
+                                                                password = password,
+                                                                port = port)
 
-} else {
-  connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
-                                                                  server = server,
-                                                                  user = user,
-                                                                  password = password,
-                                                                  port = port)
-
-}
 
 # Details specific to the database:
-databaseId <- "CDM_OPTUM_PANTHER_V1157"
-databaseName <- "CDM_OPTUM_PANTHER_V1157"
-databaseDescription <- "CDM_OPTUM_PANTHER_V1157"
+databaseId <- "MDCR"
+databaseName <- "CDM_IBM_MDCD_V1703"
+databaseDescription <- "The IBM(R) MarketScan(R) Medicare Supplemental Database (MDCR) represents the health services of approximately 10 million retirees in the United States with Medicare supplemental coverage through employer-sponsored plans. This database contains primarily fee-for-service plans and includes health insurance claims across the continuum of care (e.g. inpatient, outpatient and outpatient pharmacy)."
 
 # Details for connecting to the CDM and storing the results
-cdmDatabaseSchema <- "CDM_OPTUM_PANTHER_V1157.dbo"
-cohortDatabaseSchema <- "Scratch.dbo"
+cdmDatabaseSchema <- "cdm_truven_mdcr_v1703"
+cohortDatabaseSchema <- "scratch_asena5"
 cohortTable <- paste0("AS_HERACharacterization_", databaseId)
 featureSummaryTable <- paste0(cohortTable, "_smry")
 minCellCount <- 5
@@ -55,22 +46,6 @@ setwd(outputFolder)
 # Details for running the study.
 cohortIdsToExcludeFromExecution <- c()
 cohortIdsToExcludeFromResultsExport <- NULL
-
-# # Run cohort diagnostics -----------------------------------
-# runCohortDiagnostics(connectionDetails = connectionDetails,
-#                      cdmDatabaseSchema = cdmDatabaseSchema,
-#                      cohortDatabaseSchema = cohortDatabaseSchema,
-#                      cohortTable = cohortTable,
-#                      oracleTempSchema = oracleTempSchema,
-#                      cohortIdsToExcludeFromExecution = cohortIdsToExcludeFromExecution,
-#                      exportFolder = outputFolder,
-#                      databaseId = databaseId,
-#                      databaseName = databaseName,
-#                      databaseDescription = databaseDescription,
-#                      minCellCount = minCellCount)
-
-# Use the next command to review cohort diagnostics
-#launchDiagnosticsShinyApp(file.path(outputFolder, 'diagnostics'))
 
 # Use this to run the study. The results will be stored in a zip file called
 # 'Results_<databaseId>.zip in the outputFolder.
@@ -98,9 +73,6 @@ runStudy(connectionDetails = connectionDetails,
 keyFileName <- "E:/HERACharacterization/study-data-site-covid19.dat"
 userName <- "study-data-site-covid19"
 
-# When finished with reviewing the diagnostics, use the next command to upload the diagnostic results
-# uploadDiagnosticsResults(outputFolder, keyFileName, userName)
-
-
 # When finished with reviewing the results, use the next command upload study results to OHDSI SFTP
-# server: uploadStudyResults(outputFolder, keyFileName, userName)
+# server: 
+# uploadStudyResults(outputFolder, keyFileName, userName)

@@ -124,8 +124,8 @@ runStudy <- function(connectionDetails = NULL,
                        cohortDatabaseSchema = cohortDatabaseSchema,
                        cohortTable = cohortTable,
                        oracleTempSchema = oracleTempSchema)
-  
-  # At this point, the derived target cohorts are created 
+
+  # At this point, the derived target cohorts are created
   # add them to the list of targetCohortIds so that they are
   # part of the subgrouping below
   targetCohortIds <- c(targetCohortIds, as.numeric(unlist(HERACharacterization::getCohortsToDeriveTarget()[,c("cohortId")])))
@@ -153,8 +153,8 @@ runStudy <- function(connectionDetails = NULL,
 
   # Save database metadata ---------------------------------------------------------------
   ParallelLogger::logInfo("Saving database metadata")
-  op <- getObservationPeriodDateRange(connection, 
-                                      cdmDatabaseSchema = cdmDatabaseSchema, 
+  op <- getObservationPeriodDateRange(connection,
+                                      cdmDatabaseSchema = cdmDatabaseSchema,
                                       oracleTempSchema = oracleTempSchema)
   database <- data.frame(databaseId = databaseId,
                          databaseName = databaseName,
@@ -201,7 +201,8 @@ runStudy <- function(connectionDetails = NULL,
   features <- formatCovariates(featureProportions)
   writeToCsv(features, file.path(exportFolder, "covariate.csv"))
   featureValues <- formatCovariateValues(featureProportions, counts, minCellCount, databaseId)
-  featureValues <- featureValues[,c("cohortId", "covariateId", "mean", "sd", "databaseId")]
+  featureValues <- featureValues[,c("cohortId", "covariateId", "mean", "sd", "databaseId", "featureCount")]
+  names(featureValues) <- c("cohortId", "covariateId", "mean", "sd", "databaseId", "sumValue")
   writeToCsv(featureValues, file.path(exportFolder, "covariate_value.csv"))
   # Also keeping a raw output for debugging
   writeToCsv(featureProportions, file.path(exportFolder, "feature_proportions.csv"))
@@ -334,6 +335,12 @@ formatCovariateValues <- function(data, counts, minCellCount, databaseId) {
     data$databaseId <- databaseId
     data <- merge(data, counts[, c("cohortId", "cohortEntries")])
     data <- enforceMinCellValue(data, "mean", minCellCount/data$cohortEntries)
+    if (names(data) %in% c("sumValue")) {
+      data <- enforceMinCellValue(data, "sumValue", minCellCount/data$cohortEntries)
+    }
+    if (names(data) %in% c("featureCount")) {
+      data <- enforceMinCellValue(data, "featureCount", minCellCount/data$cohortEntries)
+    }
     data$sd[data$mean < 0] <- NA
     data$cohortEntries <- NULL
     data$mean <- round(data$mean, 3)
