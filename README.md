@@ -129,7 +129,7 @@ Health Equity Research Assessment (HERA): a large scale characterization of gend
 
     # When finished with reviewing the results, use the next command upload study results to OHDSI SFTP
     # server: 
-    # uploadStudyResults(outputFolder, keyFileName, userName)
+    uploadStudyResults(outputFolder, keyFileName, userName)
     ```
 
 # License
