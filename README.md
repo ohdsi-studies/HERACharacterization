@@ -1,4 +1,5 @@
-# Health Equity Research Assessment (HERA) Characterization
+Health Equity Research Assessment (HERA) Characterization
+=========================================================
 
 <img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started"/>
 
