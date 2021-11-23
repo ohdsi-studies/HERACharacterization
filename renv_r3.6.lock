@@ -115,17 +115,6 @@
       "Repository": "CRAN",
       "Hash": "5465553c5320701393a2daaa42ed58f9"
     },
-    "ROhdsiWebApi": {
-      "Package": "ROhdsiWebApi",
-      "Version": "1.0.0",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "ROhdsiWebApi",
-      "RemoteUsername": "ohdsi",
-      "RemoteRef": "v1.0.0",
-      "Hash": "76326796ae72089eed10500552b7f06c"
-    },
     "RSQLite": {
       "Package": "RSQLite",
       "Version": "2.2.0",

@@ -405,7 +405,7 @@ instantiateCohortSet <- function(connectionDetails = NULL,
 
 createTempInclusionStatsTables <- function(connection, oracleTempSchema, cohorts) {
   ParallelLogger::logInfo("Creating temporary inclusion statistics tables")
-  pathToSql <- system.file( "inclusionStatsTables.sql", package = "ROhdsiWebApi", mustWork = TRUE)
+  pathToSql <- system.file( "inclusionStatsTables.sql", package = getThisPackageName(), mustWork = TRUE)
   sql <- SqlRender::readSql(pathToSql)
   sql <- SqlRender::translate(sql, targetDialect = connection@dbms, oracleTempSchema = oracleTempSchema)
   DatabaseConnector::executeSql(connection, sql)
