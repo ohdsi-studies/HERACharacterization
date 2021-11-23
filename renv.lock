@@ -9,6 +9,18 @@
     ]
   },
   "Packages": {
+    "waldo": {
+      "Package": "waldo",
+      "Version": "0.2.3",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "testthat": {
+      "Package": "testthat",
+      "Version": "3.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
     "rlang": {
       "Package": "rlang",
       "Version": "0.4.7",
@@ -582,16 +594,6 @@
       "RemoteRepo": "FeatureExtraction",
       "RemoteUsername": "ohdsi",
       "RemoteRef": "v3.0.0"
-    },
-    "ROhdsiWebApi": {
-      "Package": "ROhdsiWebApi",
-      "Version": "1.0.0",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "ROhdsiWebApi",
-      "RemoteUsername": "ohdsi",
-      "RemoteRef": "v1.0.0"
     },
     "OhdsiSharing": {
       "Package": "OhdsiSharing",
