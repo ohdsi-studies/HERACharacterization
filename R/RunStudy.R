@@ -14,6 +14,7 @@ runStudy <- function(connectionDetails = NULL,
                      databaseName = databaseId,
                      databaseDescription = "",
                      minCellCount = 5,
+                     batchSize = 0,
                      incremental = TRUE,
                      incrementalFolder = file.path(exportFolder, "RecordKeeping")) {
 
@@ -76,7 +77,7 @@ runStudy <- function(connectionDetails = NULL,
                          incrementalFolder = incrementalFolder,
                          inclusionStatisticsFolder = exportFolder)
   }
-
+  
   # Next do the subgroup cohorts
   if (length(subgroupCohortIds) > 0) {
     ParallelLogger::logInfo("******************************************")
@@ -95,7 +96,7 @@ runStudy <- function(connectionDetails = NULL,
                          incrementalFolder = incrementalFolder,
                          inclusionStatisticsFolder = exportFolder)
   }
-
+  
   if (length(featureCohortIds) > 0) {
     # Create the feature cohorts
     ParallelLogger::logInfo("**********************************************************")
@@ -114,7 +115,7 @@ runStudy <- function(connectionDetails = NULL,
                          incrementalFolder = incrementalFolder,
                          inclusionStatisticsFolder = exportFolder)
   }
-
+  
   # Create the derived target cohorts
   ParallelLogger::logInfo("**********************************************************")
   ParallelLogger::logInfo(" ---- Creating derived target cohorts ---- ")
@@ -124,23 +125,23 @@ runStudy <- function(connectionDetails = NULL,
                        cohortDatabaseSchema = cohortDatabaseSchema,
                        cohortTable = cohortTable,
                        oracleTempSchema = oracleTempSchema)
-
+  
   # At this point, the derived target cohorts are created
   # add them to the list of targetCohortIds so that they are
   # part of the subgrouping below
   targetCohortIds <- c(targetCohortIds, as.numeric(unlist(HERACharacterization::getCohortsToDeriveTarget()[,c("cohortId")])))
-
+  
   # Create the subgrouped cohorts
   ParallelLogger::logInfo("**********************************************************")
   ParallelLogger::logInfo(" ---- Creating subgrouped target cohorts ---- ")
   ParallelLogger::logInfo("**********************************************************")
   createBulkSubgroup(connection = connection,
-                   cdmDatabaseSchema = cdmDatabaseSchema,
-                   cohortDatabaseSchema = cohortDatabaseSchema,
-                   cohortTable = cohortTable,
-                   targetIds = targetCohortIds,
-                   oracleTempSchema = oracleTempSchema)
-
+                     cdmDatabaseSchema = cdmDatabaseSchema,
+                     cohortDatabaseSchema = cohortDatabaseSchema,
+                     cohortTable = cohortTable,
+                     targetIds = targetCohortIds,
+                     oracleTempSchema = oracleTempSchema)
+  
   # Compute the features
   ParallelLogger::logInfo("**********************************************************")
   ParallelLogger::logInfo(" ---- Create feature proportions ---- ")
@@ -150,7 +151,7 @@ runStudy <- function(connectionDetails = NULL,
                            cohortTable = cohortTable,
                            featureSummaryTable = featureSummaryTable,
                            oracleTempSchema = oracleTempSchema)
-
+  
   # Save database metadata ---------------------------------------------------------------
   ParallelLogger::logInfo("Saving database metadata")
   op <- getObservationPeriodDateRange(connection,
@@ -211,16 +212,30 @@ runStudy <- function(connectionDetails = NULL,
   # Subset the cohorts to the target/subgroup for running feature extraction
   # that are >= 140 per protocol
   featureExtractionCohorts <-  counts[counts$cohortSubjects >= getMinimumSubjectCountForCharacterization(), c("cohortId")]$cohortId
-  ParallelLogger::logInfo("********************************************************************************************")
-  ParallelLogger::logInfo("Bulk characterization of all cohorts for all time windows")
-  ParallelLogger::logInfo("********************************************************************************************")
-  createBulkCharacteristics(connection,
-                            oracleTempSchema,
-                            cohortIds = featureExtractionCohorts,
-                            cdmDatabaseSchema,
-                            cohortDatabaseSchema,
-                            cohortTable)
-  writeBulkCharacteristics(connection, oracleTempSchema, counts, minCellCount, databaseId, exportFolder)
+  if (batchSize <= 0) {
+    ParallelLogger::logInfo("********************************************************************************************")
+    ParallelLogger::logInfo("Bulk characterization of all cohorts for all time windows")
+    ParallelLogger::logInfo("********************************************************************************************")
+    createBulkCharacteristics(connection,
+                              oracleTempSchema,
+                              cohortIds = featureExtractionCohorts,
+                              cdmDatabaseSchema,
+                              cohortDatabaseSchema,
+                              cohortTable)
+    writeBulkCharacteristics(connection, oracleTempSchema, counts, minCellCount, databaseId, exportFolder)
+  } else {
+    batchCreateCohortCharacteristics(connection = connection,
+                                     oracleTempSchema = oracleTempSchema,
+                                     batchSize = batchSize,
+                                     cohortIds = featureExtractionCohorts,
+                                     cdmDatabaseSchema = cdmDatabaseSchema,
+                                     cohortDatabaseSchema = cohortDatabaseSchema,
+                                     cohortTable = cohortTable,
+                                     counts = counts,
+                                     minCellCount = minCellCount,
+                                     databaseId = databaseId,
+                                     exportFolder = exportFolder)
+  }
 
 
   # Save package metadata ---------------------------------------------------------------

@@ -1,7 +1,7 @@
 Package: HERACharacterization
 Type: Package
 Title: Health Equity Research Assessment
-Version: 1.0.0
+Version: 1.1.0
 Author: Anthony G. Sena [aut, cre]
 Maintainer: Anthony G. Sena <asena5@its.jnj.com>
 Description: A large scale characterization of gender and racial disparites
