@@ -120,6 +120,45 @@ checkIfCohortInstantiated <- function(connection, cohortDatabaseSchema, cohortTa
 }
 
 
+#' Create cohort characteristics in batches
+#' 
+#' @description 
+#' In the case where creating bulk characteristics does not work,
+#' we are providing a mechanism for generating the characteristics
+#' in a batch manner
+#' 
+batchCreateCohortCharacteristics <- function(connection,
+                                             oracleTempSchema,
+                                             batchSize,
+                                             cohortIds,
+                                             cdmDatabaseSchema,
+                                             cohortDatabaseSchema,
+                                             cohortTable,
+                                             counts,
+                                             minCellCount,
+                                             databaseId,
+                                             exportFolder) {
+  
+  for (start in seq(1, length(cohortIds), by = batchSize)) {
+    end <- min(start + batchSize - 1, length(cohortIds))
+    if (length(cohortIds) > batchSize) {
+      ParallelLogger::logInfo(sprintf("Batch characterization - processing cohorts %s through %s", start, end))
+    }
+    createBulkCharacteristics(connection = connection,
+                              oracleTempSchema = oracleTempSchema,
+                              cohortIds = cohortIds[start:end],
+                              cdmDatabaseSchema = cdmDatabaseSchema,
+                              cohortDatabaseSchema = cohortDatabaseSchema,
+                              cohortTable = cohortTable)
+    writeBulkCharacteristics(connection = connection, 
+                             oracleTempSchema = oracleTempSchema, 
+                             counts = counts, 
+                             minCellCount = minCellCount, 
+                             databaseId = databaseId, 
+                             exportFolder = exportFolder)
+  }
+}
+
 #' Create cohort characteristics in bulk
 #'
 #' @description
