@@ -59,154 +59,154 @@ runStudy <- function(connectionDetails = NULL,
   subgroupCohortIds <- cohorts[cohorts$cohortType == "subgroup", "cohortId"][[1]]
   featureCohortIds <- cohorts[cohorts$cohortType == "feature", "cohortId"][[1]]
 
-  # # Start with the target cohorts
-  # if (length(targetCohortIds) > 0) {
-  #   ParallelLogger::logInfo("**********************************************************")
-  #   ParallelLogger::logInfo("  ---- Creating target cohorts ---- ")
-  #   ParallelLogger::logInfo("**********************************************************")
-  #   instantiateCohortSet(connectionDetails = connectionDetails,
-  #                        connection = connection,
-  #                        cdmDatabaseSchema = cdmDatabaseSchema,
-  #                        oracleTempSchema = oracleTempSchema,
-  #                        cohortDatabaseSchema = cohortDatabaseSchema,
-  #                        cohortTable = cohortTable,
-  #                        cohortIds = targetCohortIds,
-  #                        createCohortTable = TRUE,
-  #                        generateInclusionStats = FALSE,
-  #                        incremental = incremental,
-  #                        incrementalFolder = incrementalFolder,
-  #                        inclusionStatisticsFolder = exportFolder)
-  # }
-  # 
-  # # Next do the subgroup cohorts
-  # if (length(subgroupCohortIds) > 0) {
-  #   ParallelLogger::logInfo("******************************************")
-  #   ParallelLogger::logInfo("  ---- Creating subgroup cohorts  ---- ")
-  #   ParallelLogger::logInfo("******************************************")
-  #   instantiateCohortSet(connectionDetails = connectionDetails,
-  #                        connection = connection,
-  #                        cdmDatabaseSchema = cdmDatabaseSchema,
-  #                        oracleTempSchema = oracleTempSchema,
-  #                        cohortDatabaseSchema = cohortDatabaseSchema,
-  #                        cohortTable = cohortTable,
-  #                        cohortIds = subgroupCohortIds,
-  #                        createCohortTable = FALSE,
-  #                        generateInclusionStats = FALSE,
-  #                        incremental = incremental,
-  #                        incrementalFolder = incrementalFolder,
-  #                        inclusionStatisticsFolder = exportFolder)
-  # }
-  # 
-  # if (length(featureCohortIds) > 0) {
-  #   # Create the feature cohorts
-  #   ParallelLogger::logInfo("**********************************************************")
-  #   ParallelLogger::logInfo(" ---- Creating feature cohorts ---- ")
-  #   ParallelLogger::logInfo("**********************************************************")
-  #   instantiateCohortSet(connectionDetails = connectionDetails,
-  #                        connection = connection,
-  #                        cdmDatabaseSchema = cdmDatabaseSchema,
-  #                        oracleTempSchema = oracleTempSchema,
-  #                        cohortDatabaseSchema = cohortDatabaseSchema,
-  #                        cohortTable = cohortTable,
-  #                        cohortIds = featureCohortIds,
-  #                        createCohortTable = FALSE,
-  #                        generateInclusionStats = FALSE,
-  #                        incremental = incremental,
-  #                        incrementalFolder = incrementalFolder,
-  #                        inclusionStatisticsFolder = exportFolder)
-  # }
-  # 
-  # # Create the derived target cohorts
-  # ParallelLogger::logInfo("**********************************************************")
-  # ParallelLogger::logInfo(" ---- Creating derived target cohorts ---- ")
-  # ParallelLogger::logInfo("**********************************************************")
-  # createDerivedCohorts(connection = connection,
-  #                      cdmDatabaseSchema = cdmDatabaseSchema,
-  #                      cohortDatabaseSchema = cohortDatabaseSchema,
-  #                      cohortTable = cohortTable,
-  #                      oracleTempSchema = oracleTempSchema)
-  # 
-  # # At this point, the derived target cohorts are created
-  # # add them to the list of targetCohortIds so that they are
-  # # part of the subgrouping below
-  # targetCohortIds <- c(targetCohortIds, as.numeric(unlist(HERACharacterization::getCohortsToDeriveTarget()[,c("cohortId")])))
-  # 
-  # # Create the subgrouped cohorts
-  # ParallelLogger::logInfo("**********************************************************")
-  # ParallelLogger::logInfo(" ---- Creating subgrouped target cohorts ---- ")
-  # ParallelLogger::logInfo("**********************************************************")
-  # createBulkSubgroup(connection = connection,
-  #                  cdmDatabaseSchema = cdmDatabaseSchema,
-  #                  cohortDatabaseSchema = cohortDatabaseSchema,
-  #                  cohortTable = cohortTable,
-  #                  targetIds = targetCohortIds,
-  #                  oracleTempSchema = oracleTempSchema)
-  # 
-  # # Compute the features
-  # ParallelLogger::logInfo("**********************************************************")
-  # ParallelLogger::logInfo(" ---- Create feature proportions ---- ")
-  # ParallelLogger::logInfo("**********************************************************")
-  # createFeatureProportions(connection = connection,
-  #                          cohortDatabaseSchema = cohortDatabaseSchema,
-  #                          cohortTable = cohortTable,
-  #                          featureSummaryTable = featureSummaryTable,
-  #                          oracleTempSchema = oracleTempSchema)
-  # 
-  # # Save database metadata ---------------------------------------------------------------
-  # ParallelLogger::logInfo("Saving database metadata")
-  # op <- getObservationPeriodDateRange(connection,
-  #                                     cdmDatabaseSchema = cdmDatabaseSchema,
-  #                                     oracleTempSchema = oracleTempSchema)
-  # database <- data.frame(databaseId = databaseId,
-  #                        databaseName = databaseName,
-  #                        description = databaseDescription,
-  #                        vocabularyVersion = getVocabularyInfo(connection = connection,
-  #                                                              cdmDatabaseSchema = cdmDatabaseSchema,
-  #                                                              oracleTempSchema = oracleTempSchema),
-  #                        minObsPeriodDate = op$minObsPeriodDate,
-  #                        maxObsPeriodDate = op$maxObsPeriodDate,
-  #                        isMetaAnalysis = 0)
-  # writeToCsv(database, file.path(exportFolder, "database.csv"))
+  # Start with the target cohorts
+  if (length(targetCohortIds) > 0) {
+    ParallelLogger::logInfo("**********************************************************")
+    ParallelLogger::logInfo("  ---- Creating target cohorts ---- ")
+    ParallelLogger::logInfo("**********************************************************")
+    instantiateCohortSet(connectionDetails = connectionDetails,
+                         connection = connection,
+                         cdmDatabaseSchema = cdmDatabaseSchema,
+                         oracleTempSchema = oracleTempSchema,
+                         cohortDatabaseSchema = cohortDatabaseSchema,
+                         cohortTable = cohortTable,
+                         cohortIds = targetCohortIds,
+                         createCohortTable = TRUE,
+                         generateInclusionStats = FALSE,
+                         incremental = incremental,
+                         incrementalFolder = incrementalFolder,
+                         inclusionStatisticsFolder = exportFolder)
+  }
+  
+  # Next do the subgroup cohorts
+  if (length(subgroupCohortIds) > 0) {
+    ParallelLogger::logInfo("******************************************")
+    ParallelLogger::logInfo("  ---- Creating subgroup cohorts  ---- ")
+    ParallelLogger::logInfo("******************************************")
+    instantiateCohortSet(connectionDetails = connectionDetails,
+                         connection = connection,
+                         cdmDatabaseSchema = cdmDatabaseSchema,
+                         oracleTempSchema = oracleTempSchema,
+                         cohortDatabaseSchema = cohortDatabaseSchema,
+                         cohortTable = cohortTable,
+                         cohortIds = subgroupCohortIds,
+                         createCohortTable = FALSE,
+                         generateInclusionStats = FALSE,
+                         incremental = incremental,
+                         incrementalFolder = incrementalFolder,
+                         inclusionStatisticsFolder = exportFolder)
+  }
+  
+  if (length(featureCohortIds) > 0) {
+    # Create the feature cohorts
+    ParallelLogger::logInfo("**********************************************************")
+    ParallelLogger::logInfo(" ---- Creating feature cohorts ---- ")
+    ParallelLogger::logInfo("**********************************************************")
+    instantiateCohortSet(connectionDetails = connectionDetails,
+                         connection = connection,
+                         cdmDatabaseSchema = cdmDatabaseSchema,
+                         oracleTempSchema = oracleTempSchema,
+                         cohortDatabaseSchema = cohortDatabaseSchema,
+                         cohortTable = cohortTable,
+                         cohortIds = featureCohortIds,
+                         createCohortTable = FALSE,
+                         generateInclusionStats = FALSE,
+                         incremental = incremental,
+                         incrementalFolder = incrementalFolder,
+                         inclusionStatisticsFolder = exportFolder)
+  }
+  
+  # Create the derived target cohorts
+  ParallelLogger::logInfo("**********************************************************")
+  ParallelLogger::logInfo(" ---- Creating derived target cohorts ---- ")
+  ParallelLogger::logInfo("**********************************************************")
+  createDerivedCohorts(connection = connection,
+                       cdmDatabaseSchema = cdmDatabaseSchema,
+                       cohortDatabaseSchema = cohortDatabaseSchema,
+                       cohortTable = cohortTable,
+                       oracleTempSchema = oracleTempSchema)
+  
+  # At this point, the derived target cohorts are created
+  # add them to the list of targetCohortIds so that they are
+  # part of the subgrouping below
+  targetCohortIds <- c(targetCohortIds, as.numeric(unlist(HERACharacterization::getCohortsToDeriveTarget()[,c("cohortId")])))
+  
+  # Create the subgrouped cohorts
+  ParallelLogger::logInfo("**********************************************************")
+  ParallelLogger::logInfo(" ---- Creating subgrouped target cohorts ---- ")
+  ParallelLogger::logInfo("**********************************************************")
+  createBulkSubgroup(connection = connection,
+                     cdmDatabaseSchema = cdmDatabaseSchema,
+                     cohortDatabaseSchema = cohortDatabaseSchema,
+                     cohortTable = cohortTable,
+                     targetIds = targetCohortIds,
+                     oracleTempSchema = oracleTempSchema)
+  
+  # Compute the features
+  ParallelLogger::logInfo("**********************************************************")
+  ParallelLogger::logInfo(" ---- Create feature proportions ---- ")
+  ParallelLogger::logInfo("**********************************************************")
+  createFeatureProportions(connection = connection,
+                           cohortDatabaseSchema = cohortDatabaseSchema,
+                           cohortTable = cohortTable,
+                           featureSummaryTable = featureSummaryTable,
+                           oracleTempSchema = oracleTempSchema)
+  
+  # Save database metadata ---------------------------------------------------------------
+  ParallelLogger::logInfo("Saving database metadata")
+  op <- getObservationPeriodDateRange(connection,
+                                      cdmDatabaseSchema = cdmDatabaseSchema,
+                                      oracleTempSchema = oracleTempSchema)
+  database <- data.frame(databaseId = databaseId,
+                         databaseName = databaseName,
+                         description = databaseDescription,
+                         vocabularyVersion = getVocabularyInfo(connection = connection,
+                                                               cdmDatabaseSchema = cdmDatabaseSchema,
+                                                               oracleTempSchema = oracleTempSchema),
+                         minObsPeriodDate = op$minObsPeriodDate,
+                         maxObsPeriodDate = op$maxObsPeriodDate,
+                         isMetaAnalysis = 0)
+  writeToCsv(database, file.path(exportFolder, "database.csv"))
 
   # Counting cohorts -----------------------------------------------------------------------
-  # ParallelLogger::logInfo("Counting cohorts")
-  # counts <- getCohortCounts(connection = connection,
-  #                           cohortDatabaseSchema = cohortDatabaseSchema,
-  #                           cohortTable = cohortTable)
-  # if (nrow(counts) > 0) {
-  #   counts$databaseId <- databaseId
-  #   counts <- enforceMinCellValue(counts, "cohortEntries", minCellCount)
-  #   counts <- enforceMinCellValue(counts, "cohortSubjects", minCellCount)
-  # }
-  # writeToCsv(counts, file.path(exportFolder, "cohort_count.csv"))
+  ParallelLogger::logInfo("Counting cohorts")
+  counts <- getCohortCounts(connection = connection,
+                            cohortDatabaseSchema = cohortDatabaseSchema,
+                            cohortTable = cohortTable)
+  if (nrow(counts) > 0) {
+    counts$databaseId <- databaseId
+    counts <- enforceMinCellValue(counts, "cohortEntries", minCellCount)
+    counts <- enforceMinCellValue(counts, "cohortSubjects", minCellCount)
+  }
+  writeToCsv(counts, file.path(exportFolder, "cohort_count.csv"))
 
   # Read in the cohort counts
   counts <- readr::read_csv(file.path(exportFolder, "cohort_count.csv"), col_types = readr::cols())
   colnames(counts) <- SqlRender::snakeCaseToCamelCase(colnames(counts))
 
-  # # Export the cohorts from the study
-  # cohortsForExport <- loadCohortsForExportFromPackage(cohortIds = counts$cohortId)
-  # writeToCsv(cohortsForExport, file.path(exportFolder, "cohort.csv"))
-  # 
-  # # Extract feature counts -----------------------------------------------------------------------
-  # ParallelLogger::logInfo("Extract feature counts")
-  # featureProportions <- exportFeatureProportions(connection = connection,
-  #                                                cohortDatabaseSchema = cohortDatabaseSchema,
-  #                                                cohortTable = cohortTable,
-  #                                                featureSummaryTable = featureSummaryTable)
-  # if (nrow(featureProportions) > 0) {
-  #   featureProportions$databaseId <- databaseId
-  #   featureProportions <- enforceMinCellValue(featureProportions, "featureCount", minCellCount)
-  #   featureProportions <- featureProportions[featureProportions$totalCount >= getMinimumSubjectCountForCharacterization(), ]
-  # }
-  # features <- formatCovariates(featureProportions)
-  # writeToCsv(features, file.path(exportFolder, "covariate.csv"))
-  # featureValues <- formatCovariateValues(featureProportions, counts, minCellCount, databaseId)
-  # featureValues <- featureValues[,c("cohortId", "covariateId", "mean", "sd", "databaseId", "featureCount")]
-  # names(featureValues) <- c("cohortId", "covariateId", "mean", "sd", "databaseId", "sumValue")
-  # writeToCsv(featureValues, file.path(exportFolder, "covariate_value.csv"))
-  # # Also keeping a raw output for debugging
-  # writeToCsv(featureProportions, file.path(exportFolder, "feature_proportions.csv"))
+  # Export the cohorts from the study
+  cohortsForExport <- loadCohortsForExportFromPackage(cohortIds = counts$cohortId)
+  writeToCsv(cohortsForExport, file.path(exportFolder, "cohort.csv"))
+
+  # Extract feature counts -----------------------------------------------------------------------
+  ParallelLogger::logInfo("Extract feature counts")
+  featureProportions <- exportFeatureProportions(connection = connection,
+                                                 cohortDatabaseSchema = cohortDatabaseSchema,
+                                                 cohortTable = cohortTable,
+                                                 featureSummaryTable = featureSummaryTable)
+  if (nrow(featureProportions) > 0) {
+    featureProportions$databaseId <- databaseId
+    featureProportions <- enforceMinCellValue(featureProportions, "featureCount", minCellCount)
+    featureProportions <- featureProportions[featureProportions$totalCount >= getMinimumSubjectCountForCharacterization(), ]
+  }
+  features <- formatCovariates(featureProportions)
+  writeToCsv(features, file.path(exportFolder, "covariate.csv"))
+  featureValues <- formatCovariateValues(featureProportions, counts, minCellCount, databaseId)
+  featureValues <- featureValues[,c("cohortId", "covariateId", "mean", "sd", "databaseId", "featureCount")]
+  names(featureValues) <- c("cohortId", "covariateId", "mean", "sd", "databaseId", "sumValue")
+  writeToCsv(featureValues, file.path(exportFolder, "covariate_value.csv"))
+  # Also keeping a raw output for debugging
+  writeToCsv(featureProportions, file.path(exportFolder, "feature_proportions.csv"))
 
   # Cohort characterization ---------------------------------------------------------------
   # Subset the cohorts to the target/subgroup for running feature extraction
